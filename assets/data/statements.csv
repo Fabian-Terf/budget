@@ -1,0 +1,1007 @@
+Id;SheetId;Label;Value;UserId;Deleted;CreationTime
+1;1;Partie annif romain;-63;1;0;2023-01-18 00:00:00
+2;1;Salaire natacha;1844.38;1;0;2023-01-01 00:00:00
+3;1;Salaire fabian;2830.92;1;0;2023-01-01 00:00:00
+4;1;Visa(25,99 lenny ,15 fabian,58,19 tristan);-597.35;1;0;2023-01-02 00:00:00
+5;1;Boulangerie;-57;1;0;2023-01-02 00:00:00
+6;1;Assurance dentaire;-574.56;1;0;2023-01-02 00:00:00
+7;1;ramonage cheminée;-99;1;0;2023-01-02 00:00:00
+8;1;Facture eau courante;-107.1;1;0;2023-01-02 00:00:00
+9;1;Assurance enfants;-89.99;1;0;2023-01-02 00:00:00
+10;1;Assurance pension natacha;-52.73;1;0;2023-01-02 00:00:00
+11;1;Facture CHU tristan;-12;1;0;2023-01-02 00:00:00
+12;1;Facture CHU natacha;-33.05;1;0;2023-01-02 00:00:00
+13;1;Achat farmaline;-48.22;1;0;2023-01-03 00:00:00
+14;1;Anniversaire mymy nonceveux;-20;1;0;2023-01-05 00:00:00
+15;1;Course lidl;-99.36;1;0;2023-01-05 00:00:00
+16;1;Argent repas travail fabian et natacha;-28.2;1;0;2023-01-05 00:00:00
+17;1;Allocations familiales;981.34;1;0;2023-01-05 00:00:00
+18;1;Assurance décès;-33.75;1;0;2023-01-05 00:00:00
+19;1;Assurance juridique;-22.33;1;0;2023-01-05 00:00:00
+20;1;Pharmacie;-15.79;1;0;2023-01-05 00:00:00
+21;1;Essence;-150.1;1;0;2023-01-05 00:00:00
+22;1;Argent de poche lenny(-visa);-20;1;0;2023-01-05 00:00:00
+23;1;Soldes tristan(80-visa);-22;1;0;2023-01-05 00:00:00
+24;1;Frais banquaires;-50;1;0;2023-01-05 00:00:00
+25;1;Réservation petits déjeuners just un moment;-42;1;0;2023-01-05 00:00:00
+26;1;Du compte loisirs visa et soldes;362.2;1;0;2023-01-05 00:00:00
+27;1;Dentiste lenny;-133;1;0;2023-01-06 00:00:00
+28;1;Achat action;-86.62;1;0;2023-01-06 00:00:00
+29;1;Frites à emporter;-26.4;1;0;2023-01-05 00:00:00
+30;1;Achat jeu ps4 (fabian);-11.99;1;0;2023-01-07 00:00:00
+31;1;Soldes chausséa;-110.45;1;0;2023-01-07 00:00:00
+32;1;Argent enveloppe fêtes;-70;1;0;2023-01-06 00:00:00
+33;1;Pizza à emporter;-37;1;0;2023-01-08 00:00:00
+34;1;Soldes natacha clothing rose;-66;1;0;2023-01-09 00:00:00
+35;1;Achat bodyshop pour cadeaux fêtes;-22;1;0;2023-01-09 00:00:00
+36;1;Achat alccols luxembourg;-26;1;0;2023-01-09 00:00:00
+37;1;Soldes zeeman;-69.89;1;0;2023-01-09 00:00:00
+38;1;Assurance pension fabian;-50;1;0;2023-01-10 00:00:00
+39;1;Electricité;-50;1;0;2023-01-10 00:00:00
+40;1;Remboursement luminus;14.5;1;0;2023-01-11 00:00:00
+41;1;Facture scarlet nous deux;-21.43;1;0;2023-01-11 00:00:00
+42;1;Assurance voitures et familiale;-127.8;1;0;2023-01-11 00:00:00
+43;1;Garderie école anaïs;-6;1;0;2023-01-12 00:00:00
+44;1;Achat kruidvat;-53.57;1;0;2023-01-12 00:00:00
+45;1;Séjour sunpark romain et tristan;-120;1;0;2023-01-12 00:00:00
+46;1;Courses colryut;-678.93;1;0;2023-01-12 00:00:00
+47;1;Jeu ps5 d'occasion(fabian);-25;1;0;2023-01-12 00:00:00
+48;1;Places concert balavoine;-34.5;1;0;2023-01-12 00:00:00
+49;1;Garde natacha;246.77;1;0;2023-01-13 00:00:00
+50;1;Cinéma fabian et lenny;-9.5;1;0;2023-01-13 00:00:00
+51;1;Pita à emporter;-35.3;1;0;2023-01-15 00:00:00
+52;1;Soldes éros natacha;-144;1;0;2023-01-17 00:00:00
+53;1;Soldes diabolo;-17.97;1;0;2023-01-17 00:00:00
+54;1;sandwichs romain école;-17;1;0;2023-01-17 00:00:00
+55;1;Clés;-16;1;0;2023-01-18 00:00:00
+56;1;Soldes zeeman;-7;1;0;2023-01-18 00:00:00
+57;1;Pizza à emporter;-57;1;0;2023-01-22 00:00:00
+58;1;Voo;-72.12;1;0;2023-01-23 00:00:00
+59;1;Porte de douche;-300;1;0;2023-01-25 00:00:00
+60;1;Prêt mamoun;-200;1;0;2023-01-25 00:00:00
+61;1;Achat extra;-14.37;1;0;2023-01-27 00:00:00
+62;1;remboursement orthon romain assurance dentaire;6.5;1;0;2023-01-27 00:00:00
+63;1;remboursement dentiste lenny;109;1;0;2023-01-27 00:00:00
+64;1;Restaurant chinois en amoureux;-50;1;0;2023-01-28 00:00:00
+65;1;Pizza à emporter garçons;-40;1;0;2023-01-28 00:00:00
+66;1;Prêt maison;-973.45;1;0;2023-01-31 00:00:00
+67;2;Salaire natacha;1932.03;1;0;2023-01-30 00:00:00
+68;2;Salaire fabian;3010.34;1;0;2023-01-30 00:00:00
+69;2;Achat action;-34.95;1;0;2023-02-01 00:00:00
+70;2;Prestation irrégulière du CHU;11.93;1;0;2023-01-30 00:00:00
+71;2;Visa(23 mélissa,14,11lenny,35,48fabian);-462.24;1;0;2023-02-02 00:00:00
+72;2;Course GB;-23.02;1;0;2023-01-31 00:00:00
+73;2;Course aldi;-57.56;1;0;2023-01-31 00:00:00
+74;2;Jeu switch saint valentin fabian;-17.4;1;0;2023-02-01 00:00:00
+75;2;argent de poche lenny 50-visa;-35.89;1;0;2023-02-01 00:00:00
+76;2;restant du mois de janvier;300;1;0;2023-02-01 00:00:00
+77;2;Repas travail fabian et natacha;-40;1;0;2023-02-01 00:00:00
+78;2;Assurance enfants;-89.99;1;0;2023-02-01 00:00:00
+79;2;Assurance mutuelle complémentaire natacha et fabian;-252;1;0;2023-02-01 00:00:00
+80;2;Course intermarché;-57.3;1;0;2023-02-02 00:00:00
+81;2;remboursement dentiste bassis natacha;113;1;0;2023-02-02 00:00:00
+82;2;Frite lenny et flora;-20;1;0;2023-02-03 00:00:00
+83;2;Dentiste fabian;-194;1;0;2023-02-03 00:00:00
+84;2;Argent de poche romain sunpark;-50;1;0;2023-02-03 00:00:00
+85;2;Achat gâteau loic;-6;1;0;2023-02-03 00:00:00
+86;2;Sandwich école romain;-6;1;0;2023-02-03 00:00:00
+87;2;Assurance pension fabian;-50;1;0;2023-02-04 00:00:00
+88;2;Concert balavoine avec béa;-20;1;0;2023-02-03 00:00:00
+89;2;Facture gsm nous deux;-21;1;0;2023-02-04 00:00:00
+90;2;Assurance pension natacha;-52.73;1;0;2023-02-04 00:00:00
+91;2;Facture médecin natacha;-9.37;1;0;2023-02-04 00:00:00
+92;2;Course lidl;-50.29;1;0;2023-02-07 00:00:00
+93;2;Achat kruidvat;-55.92;1;0;2023-02-07 00:00:00
+94;2;Assurance décès;-33.75;1;0;2023-02-07 00:00:00
+95;2;Assurance juridique;-22.37;1;0;2023-02-07 00:00:00
+96;2;Allocations familiales;981.34;1;0;2023-02-07 00:00:00
+97;2;Course colruyt;-647.81;1;0;2023-02-08 00:00:00
+98;2;Soirée en amoureux;-37.3;1;0;2023-02-04 00:00:00
+99;2;Boulangerie;-60;1;0;2023-02-09 00:00:00
+100;2;Essence;-226.44;1;0;2023-02-09 00:00:00
+101;2;Achat action;-81.54;1;0;2023-02-09 00:00:00
+102;2;Assurance voitures et familiale;-127.8;1;0;2023-02-09 00:00:00
+103;2;Réparation chaudière;-60;1;0;2023-02-09 00:00:00
+104;2;Partie divan lit tristan;-30;1;0;2023-02-09 00:00:00
+105;2;Carnaval;-15;1;0;2023-02-12 00:00:00
+106;2;Sandwich école lenny;-3;1;0;2023-02-12 00:00:00
+107;2;Essence tristan et solde sunpark romain;-15;1;0;2023-02-13 00:00:00
+108;2;Pizza à emporter;-45;1;0;2023-02-12 00:00:00
+109;2;Argent de poche fabian et natacha;-364.52;1;0;2023-02-13 00:00:00
+110;2;Bon vêtement saint valentin natacha;-23;1;0;2023-02-13 00:00:00
+111;2;Dentiste natacha;-195;1;0;2023-02-13 00:00:00
+112;2;Electricité;-50;1;0;2023-02-13 00:00:00
+113;2;remboursement dentiste fabian;138;1;0;2023-02-14 00:00:00
+114;2;Léonidas saint-valentin fabian;-10;1;0;2023-02-14 00:00:00
+115;2;Cadeau annif papou;-16.83;1;0;2023-02-14 00:00:00
+116;2;Fleurs saint valentin natacha;-20;1;0;2023-02-14 00:00:00
+117;2;Sandwich natacha avec sylvie;-7.5;1;0;2023-02-14 00:00:00
+118;2;Achat zeeman annif poupette et divers;-26.6;1;0;2023-02-16 00:00:00
+119;2;Achat action annif poupette et divers;-17.17;1;0;2023-02-16 00:00:00
+120;2;Achat kruidvat;-55.61;1;0;2023-02-17 00:00:00
+121;2;Achat tickets concert;-46;1;0;2023-02-17 00:00:00
+122;2;Course intermarché;-5.49;1;0;2023-02-18 00:00:00
+123;2;Achat farmaline;-100.21;1;0;2023-02-19 00:00:00
+124;2;Frites à emporter;-34.6;1;0;2023-02-17 00:00:00
+125;2;Quick natacha avce collègues;-12.9;1;0;2023-02-15 00:00:00
+126;2;achat chiques et chocolats marie famrée;-8;1;0;2023-02-20 00:00:00
+127;2;Achat animal confort;-37.4;1;0;2023-02-21 00:00:00
+128;2;Activité enfants avec amis;-19;1;0;2023-02-21 00:00:00
+129;2;Facture Voo;-72.12;1;0;2023-02-22 00:00:00
+130;2;Livre école romain;-5;1;0;2023-02-22 00:00:00
+131;2;Pharmacie;-28.94;1;0;2023-02-23 00:00:00
+132;2;Pizza à emporter;-41;1;0;2023-02-25 00:00:00
+133;2;Cadeau annif babou;-24;1;0;2023-02-26 00:00:00
+134;2;Séjour à masstricht;-261.8;1;0;2023-02-26 00:00:00
+135;2;Mis de côté sur compte factures;-454;1;0;2023-02-26 00:00:00
+136;2;Prêt mamoun;-200;1;0;2023-02-26 00:00:00
+137;2;Mc Do fabian et garçons;-40.75;1;0;2023-02-27 00:00:00
+138;2;Activité gulpen avec enfants;-61;1;0;2023-02-28 00:00:00
+139;2;Coiffeur fabian et enfants;-50;1;0;2023-02-28 00:00:00
+140;2;Prêt maison;-973.45;1;0;2023-02-28 00:00:00
+141;2;Anniversaire anthony;-40;1;0;2023-03-01 00:00:00
+142;3;Salaire natacha;1930.94;1;0;2023-02-28 00:00:00
+143;3;Salaire fabian;3004.89;1;0;2023-02-28 00:00:00
+144;3;Argent de poche fabian et natacha;-400;1;0;2023-03-01 00:00:00
+145;3;Course cora et jouet anniversaire anaïs;-57.89;1;0;2023-03-01 00:00:00
+146;3;Achat action;-92.09;1;0;2023-03-01 00:00:00
+147;3;Argent de poche lenny;-50;1;0;2023-03-02 00:00:00
+148;3;Activité manga romain;-57;1;0;2023-03-02 00:00:00
+149;3;Du compte loiris pour visa;1180;1;0;2023-03-02 00:00:00
+150;3;De natacha pour visa;169.34;1;0;2023-03-02 00:00:00
+151;3;De fabian pour visa;127.05;1;0;2023-03-02 00:00:00
+152;3;Course intermarché;-16.38;1;0;2023-03-04 00:00:00
+153;3;Achat kruidvat pâques et divers;-11.96;1;0;2023-03-04 00:00:00
+154;3;Achat vêtements natacha masstricht;-20;1;0;2023-03-04 00:00:00
+155;3;Achat C&A veste fabian maastricht;-70;1;0;2023-03-04 00:00:00
+156;3;Restaurant entre filles;-32;1;0;2023-03-02 00:00:00
+157;3;Essence;-248.63;1;0;2023-03-03 00:00:00
+158;3;Assurance pension fabian;-50;1;0;2023-03-03 00:00:00
+159;3;Parking maastricht;-9.5;1;0;2023-03-04 00:00:00
+160;3;Repas à maastricht;-72.55;1;0;2023-03-04 00:00:00
+161;3;Assurance décès;-33.75;1;0;2023-03-06 00:00:00
+162;3;Casino à maastricht;-50;1;0;2023-03-04 00:00:00
+163;3;Thermeo 2000 masstricht;-24.98;1;0;2023-03-04 00:00:00
+164;3;Argent de poche maastricht;-55;1;0;2023-03-04 00:00:00
+165;3;Argent tristan et clarisse pour tancrémont;-15;1;0;2023-03-05 00:00:00
+166;3;Assurance enfants;-89.99;1;0;2023-03-05 00:00:00
+167;3;Facture CHR pédiatre anaïs;-12;1;0;2023-03-05 00:00:00
+168;3;Assurance pension natacha;-52.73;1;0;2023-03-05 00:00:00
+169;3;Course colruyt;-504.64;1;0;2023-03-06 00:00:00
+170;3;Assurance voitures et familiale;-141.82;1;0;2023-03-06 00:00:00
+171;3;assurance juridique;-25.67;1;0;2023-03-06 00:00:00
+172;3;Argent repas travail fabian et natacha;-53;1;0;2023-03-06 00:00:00
+173;3;Allocations familiales;981.34;1;0;2023-03-06 00:00:00
+174;3;remboursement dentalis dentiste;37.51;1;0;2023-03-06 00:00:00
+175;3;Visa;-1544.9;1;0;2023-03-06 00:00:00
+176;3;Facture GSM nous deux;-22;1;0;2023-03-06 00:00:00
+177;3;Anniversaire thomas;-30;1;0;2023-03-10 00:00:00
+178;3;Achat action pâques et divers;-30.02;1;0;2023-03-10 00:00:00
+179;3;Boulangerie;-63;1;0;2023-03-10 00:00:00
+180;3;Pizza à emporter;-38;1;0;2023-03-12 00:00:00
+181;3;Carnaval école anaïs;-14;1;0;2023-03-12 00:00:00
+182;3;Achat action annif béatrice et divers;-26.93;1;0;2023-03-12 00:00:00
+183;3;Achat animal confort;-16.3;1;0;2023-03-13 00:00:00
+184;3;de tristan pour visa;103;1;0;2023-03-13 00:00:00
+185;3;Course intermarché;-46.26;1;0;2023-03-14 00:00:00
+186;3;Sandwich école lenny;-5;1;0;2023-03-14 00:00:00
+187;3;Achat kruidvat;-63.2;1;0;2023-03-15 00:00:00
+188;3;Envoi colis via mondial relay;-7.9;1;0;2023-03-15 00:00:00
+189;3;remboursement dentalis dentiste fabian;22.38;1;0;2023-03-16 00:00:00
+190;3;Marché à verviers;-25;1;0;2023-03-18 00:00:00
+191;3;Course lidl;-142.06;1;0;2023-03-18 00:00:00
+192;3;Cinéma en famille;-75.08;1;0;2023-03-18 00:00:00
+193;3;Otacos en famille;-36.1;1;0;2023-03-18 00:00:00
+194;3;Pizza tristan et clarisse à emporter;-25;1;0;2023-03-18 00:00:00
+195;3;Librairie fabian;-7.5;1;0;2023-03-19 00:00:00
+196;3;Prêt mamoun;-200;1;0;2023-03-19 00:00:00
+197;3;Mis de côté sur compte factures;-800;1;0;2023-03-19 00:00:00
+198;3;Achat poulailler sur vidaxl;-82;1;0;2023-03-20 00:00:00
+199;3;Pharmacie;-118.05;1;0;2023-03-20 00:00:00
+200;3;Farmaline;-95.74;1;0;2023-03-20 00:00:00
+201;3;remboursement crèche anaïs de la mutuelle;50;1;0;2023-03-23 00:00:00
+202;3;Sandwich école romain;-3;1;0;2023-03-23 00:00:00
+203;3;remboursement dentiste natacha de la mutuelle;11.5;1;0;2023-03-23 00:00:00
+204;3;Facture voo;-76;1;0;2023-03-23 00:00:00
+205;3;Sandwich avec babeth;-10;1;0;2023-03-23 00:00:00
+206;3;Achat shein;-64.99;1;0;2023-03-24 00:00:00
+207;3;Dentiste natacha;-100;1;0;2023-03-25 00:00:00
+208;3;Essence que je me suis trompée avec la voiture;-36.01;1;0;2023-03-25 00:00:00
+209;3;Frites à emporter;-44;1;0;2023-03-27 00:00:00
+210;3;Soirée en amoureux;-42.5;1;0;2023-03-27 00:00:00
+211;3;Essence et boulangerie tristan;-25;1;0;2023-03-27 00:00:00
+212;3;Gsm garçons;-48;1;0;2023-03-29 00:00:00
+213;3;Prêt maison;-973.45;1;0;2023-03-31 00:00:00
+214;4;Salaire fabian;3007.07;1;0;2023-03-30 00:00:00
+215;4;Salaire natacha;1932.05;1;0;2023-03-30 00:00:00
+216;4;Prêt mamoun;-200;1;0;2023-04-15 00:00:00
+217;4;Gsm garçons;-48;1;0;2023-03-30 00:00:00
+218;4;Facture prise de sang chu natacha;-12.96;1;0;2023-03-30 00:00:00
+219;4;Course lidl;-145.36;1;0;2023-04-01 00:00:00
+220;4;Achat action:pâques,jardin et divers;-78.06;1;0;2023-04-01 00:00:00
+221;4;Achat trafic;-40.27;1;0;2023-04-01 00:00:00
+222;4;Achat animal confort;-1.9;1;0;2023-04-01 00:00:00
+223;4;remboursement mutuelle dentiste natacha;25.25;1;0;2023-04-01 00:00:00
+224;4;Achat chaussures fabian;-82.48;1;0;2023-04-01 00:00:00
+225;4;soirée en amoureux;-61.5;1;0;2023-04-01 00:00:00
+226;4;Assurance pension natacha;-52.73;1;0;2023-04-02 00:00:00
+227;4;Assurance enfants;-89.99;1;0;2023-04-02 00:00:00
+228;4;Achat croquettes à benjamin(team C4);-17.5;1;0;2023-04-02 00:00:00
+229;4;Course intermarché;-85.09;1;0;2023-04-04 00:00:00
+230;4;Course Aldi;-52.21;1;0;2023-04-04 00:00:00
+231;4;Repas travail fabian et natacha;0;1;0;2023-04-04 00:00:00
+232;4;Achat pépinière fléron;-52.35;1;0;2023-04-04 00:00:00
+233;4;Assurance pension fabian;-50;1;0;2023-04-04 00:00:00
+234;4;Pharmacie lait en poudre;-18.39;1;0;2023-04-04 00:00:00
+235;4;Boulangerie;-53;1;0;2023-04-04 00:00:00
+236;4;sandwich lenny et romain;-17;1;0;2023-04-04 00:00:00
+237;4;entretien voiture fabian;-121;1;0;2023-04-04 00:00:00
+238;4;Visa(-45,95/194,62);-458.28;1;0;2023-04-05 00:00:00
+239;4;Allocations familiales;981.34;1;0;2023-04-05 00:00:00
+240;4;Assurance juridique;-25.67;1;0;2023-04-05 00:00:00
+241;4;Argent de poche fabian-visa;-105.38;1;0;2023-04-05 00:00:00
+242;4;Argent de poche natacha-visa;-204.05;1;0;2023-04-05 00:00:00
+243;4;Argent de poche lenny;-50;1;0;2023-04-05 00:00:00
+244;4;Essence tristan remerciement pour avoir aidé;-60;1;0;2023-04-05 00:00:00
+245;4;Achat kruidvat;-87.03;1;0;2023-04-06 00:00:00
+246;4;Assurance décès;-33.75;1;0;2023-04-06 00:00:00
+247;4;Achat animal confort pâques lenny;-31.75;1;0;2023-04-08 00:00:00
+248;4;Course colruyt;-548.09;1;0;2023-04-08 00:00:00
+249;4;Pharmacie lait en poudre et médocs;-32.69;1;0;2023-04-08 00:00:00
+250;4;Argent de poche romain;-30;1;0;2023-04-08 00:00:00
+251;4;place de cinéma romain avec ses copains;-10;1;0;2023-04-08 00:00:00
+252;4;versement aux garçons pour pâques;-88;1;0;2023-04-08 00:00:00
+253;4;Essence;-169.71;1;0;2023-04-11 00:00:00
+254;4;Assurance voitures et familiale;-144.17;1;0;2023-04-11 00:00:00
+255;4;Course intermarché;-77.74;1;0;2023-04-12 00:00:00
+256;4;Achat action cadeau shirley et divers;-38.91;1;0;2023-04-13 00:00:00
+257;4;Facture GSM nous deux;-23.53;1;0;2023-04-13 00:00:00
+258;4;Marché à verviers;-30;1;0;2023-04-15 00:00:00
+259;4;Repas team C4;-56;1;0;2023-04-15 00:00:00
+260;4;Remboursement filles C4 cadeau shirley;26;1;0;2023-04-15 00:00:00
+261;4;Pizza à emporter;-44.5;1;0;2023-04-16 00:00:00
+262;4;Achat farmaline;-36.88;1;0;2023-04-17 00:00:00
+263;4;Dermato tristan;-38.5;1;0;2023-04-18 00:00:00
+264;4;Pharmacie tristan;-106.99;1;0;2023-04-18 00:00:00
+265;4;Course GB;-3.79;1;0;2023-04-18 00:00:00
+266;4;Achat farmaline;-36.88;1;0;2023-04-18 00:00:00
+267;4;Achat action jardin+divers;-77.53;1;0;2023-04-18 00:00:00
+268;4;Mis de côté compte factures;-776;1;0;2023-04-18 00:00:00
+269;4;Dentiste natacha;-50;1;0;2023-04-18 00:00:00
+270;4;Cadeau annif mamoun;-6.75;1;0;2023-04-20 00:00:00
+271;4;Achat jus de pomme école anaïs;-30;1;0;2023-04-20 00:00:00
+272;4;Pharmacie;-24;1;0;2023-04-20 00:00:00
+273;4;Gaufre fanny(10-6 jus de pomme);-4;1;0;2023-04-20 00:00:00
+274;4;Garde week-end natacha;150;1;0;2023-04-20 00:00:00
+275;4;Cinéma en amoureux;-42.5;1;0;2023-04-23 00:00:00
+276;4;Coiffeur les 3 hommes;-40;1;0;2023-04-23 00:00:00
+277;4;Achat animal confort;-25.2;1;0;2023-04-24 00:00:00
+278;4;Sandwich avec fabienne;-15;1;0;2023-04-24 00:00:00
+279;4;Achat places concerts lambermont;-45;1;0;2023-04-24 00:00:00
+280;4;Vêtements tristan;-35;1;0;2023-04-26 00:00:00
+281;4;Places journée à plopsa panne;-76.19;1;0;2023-04-25 00:00:00
+282;4;Achat billets de train séjour à la mer;-39.4;1;0;2023-04-25 00:00:00
+283;4;Séjour à la mer;-90;1;0;2023-04-30 00:00:00
+284;4;De babou pour pâques anais;20;1;0;2020-04-30 00:00:00
+285;4;Achat zeeman jouets anais et divers;-9.47;1;0;2023-04-30 00:00:00
+286;4;Achat kruidvat jouets anais et divers;-10.97;1;0;2023-04-30 00:00:00
+287;4;Prêt maison;-973.45;1;0;2023-04-30 00:00:00
+288;5;Salaire fabian;3005.98;1;0;2023-05-01 00:00:00
+289;5;Salaire natacha;1933.12;1;0;2023-05-01 00:00:00
+290;5;Librairie;-13.6;1;0;2023-05-02 00:00:00
+291;5;Course intermarché;-154.16;1;0;2023-05-02 00:00:00
+292;5;Achat plantes à la jardinerie de l'amblève annif nat + déco jardin;-79.85;1;0;2023-05-02 00:00:00
+293;5;Essence;-184.89;1;0;2023-05-02 00:00:00
+294;5;Visa(86,10 R/112,67 L,25,19 F);-992.28;1;0;2023-05-02 00:00:00
+295;5;Boulangerie;-57.5;1;0;2023-05-02 00:00:00
+296;5;Courses spar séjour à la mer;-61.94;1;0;2023-05-02 00:00:00
+297;5;Bois de chauffage;-140;1;0;2023-05-02 00:00:00
+298;5;Cinéma fabian et lenny;-34.8;1;0;2023-05-01 00:00:00
+299;5;remboursement dermato tristan de la mutuelle;26.22;1;0;2023-05-02 00:00:00
+300;5;Cadeaux annif natacha;-68;1;0;2023-05-02 00:00:00
+301;5;Argent de poche romain;-30;1;0;2023-05-02 00:00:00
+302;5;Argent de poche lenny;-50;1;0;2023-05-02 00:00:00
+303;5;Assurance pension natacha;-52.73;1;0;2023-05-02 00:00:00
+304;5;Assurances enfants;-89.99;1;0;2023-05-02 00:00:00
+305;5;Course lidl;-64.31;1;0;2023-05-03 00:00:00
+306;5;Achat action;-97.07;1;0;2023-05-04 00:00:00
+307;5;Du compte loisirs pour visa;430;1;0;2023-05-04 00:00:00
+308;5;Facture voo pour avril et mai;-152.27;1;0;2023-05-04 00:00:00
+309;5;Gsm garçons;-48;1;0;2023-05-04 00:00:00
+310;5;Restaurant en amoureux;-66;1;0;2023-05-05 00:00:00
+311;5;Facture eau courante;-113.12;1;0;2023-05-05 00:00:00
+312;5;De anaïs pour annif natacha;-13.5;1;0;2023-05-05 00:00:00
+313;5;Achat farmaline;-40.09;1;0;2023-05-05 00:00:00
+314;5;parking liège sortie en amoureux;-6;1;0;2023-05-05 00:00:00
+315;5;Achat éros vêtements natacha;-35;1;0;2023-05-05 00:00:00
+316;5;Allocations familiales;981.34;1;0;2023-05-05 00:00:00
+317;5;Partie des congés payés pour amsterdam;240;1;0;2023-05-05 00:00:00
+318;5;De romain pour visa;86.1;1;0;2023-05-06 00:00:00
+319;5;De lenny visa+gougouilles et -ciné avec papa;102.67;1;0;2023-05-06 00:00:00
+320;5;Course colruyt;-466.87;1;0;2023-05-08 00:00:00
+321;5;Achat kruidvat(30 natacha);-51.44;1;0;2023-05-08 00:00:00
+322;5;Achat tickets phantasialand tristan et romain;-88;1;0;2023-05-08 00:00:00
+323;5;Frites à emporter;-27.6;1;0;2023-05-09 00:00:00
+324;5;Cinéma et pitas en famille avec belles-filles;-125.3;1;0;2023-05-09 00:00:00
+325;5;Achat action travaux maison et divers;-42.19;1;0;2023-05-09 00:00:00
+326;5;Assurance voitures et familiale;-144.17;1;0;2023-05-09 00:00:00
+327;5;Achat peinture gamma travaux maison;-269.46;1;0;2023-05-09 00:00:00
+328;5;Pour travaux maison du compte loisirs;300;1;0;2023-05-09 00:00:00
+329;5;Partie lézard lenny;-44;1;0;2023-05-10 00:00:00
+330;5;Activités avec mélissa et les enfants;-22;1;0;2023-05-10 00:00:00
+331;5;Argent de poche tristan;-125;1;0;2023-05-11 00:00:00
+332;5;Courses et boulangerie tristan;-15;1;0;2023-05-11 00:00:00
+333;5;De anaïs pour fête des mères;-7.5;1;0;2023-05-11 00:00:00
+334;5;Cadastre;-783.27;1;0;2023-05-11 00:00:00
+335;5;Assurance juridique;-25.67;1;0;2023-05-11 00:00:00
+336;5;Assurance décès;-33.75;1;0;2023-05-11 00:00:00
+337;5;Du compte factures pour factures;140;1;0;2023-05-11 00:00:00
+338;5;Cours permis théorique  lenny maison de banneux;-25;1;0;2023-05-11 00:00:00
+339;5;Passage permis théorique lenny;-15;1;0;2023-05-12 00:00:00
+340;5;Frite à emporter lenny et romain;-20;1;0;2023-05-13 00:00:00
+341;5;Argent de poche séjour en amoureux;-217;1;0;2023-05-14 00:00:00
+342;5;Activités à amsterdam;-100;1;0;2023-05-14 00:00:00
+343;5;repas travail fabian et natacha;-25;1;0;2023-05-15 00:00:00
+344;5;Gardes natacha;156.45;1;0;2023-05-15 00:00:00
+345;5;Du compte loisirs pour séjour amsterdam;250;1;0;2023-05-15 00:00:00
+346;5;Pharmacie(104 natacha);-171.32;1;0;2023-05-17 00:00:00
+347;5;Légumier;-10.93;1;0;2023-05-17 00:00:00
+348;5;Achat trafic jardin;-67.87;1;0;2023-05-17 00:00:00
+349;5;Achat hubo;-11.67;1;0;2023-05-17 00:00:00
+350;5;Course aldi;-15.38;1;0;2023-05-17 00:00:00
+351;5;Prêt mamoun;-200;1;0;2023-05-17 00:00:00
+352;5;Assurance pension fabian;-50;1;0;2023-05-18 00:00:00
+353;5;Tribute lambermont;-40;1;0;2023-05-20 00:00:00
+354;5;Pizza à emporter;-23.5;1;0;2023-05-21 00:00:00
+355;5;pizza à emporter les garçons;-21;1;0;2023-05-20 00:00:00
+356;5;argent de poche fabian-visa;-274.81;1;0;2023-05-21 00:00:00
+357;5;argent de poche natacha-pharmacie;-146;1;0;2023-05-21 00:00:00
+358;5;Cadeau fêtes des mères mamoun;-12.5;1;0;2023-05-21 00:00:00
+359;5;Sandwichs garçons école;-3;1;0;2023-05-22 00:00:00
+360;5;Achat tickets de train excursion lenny école et diner à liège;-17.4;1;0;2023-05-25 00:00:00
+361;5;Facture scarlet gsm nous deux;-51.56;1;0;2023-05-25 00:00:00
+362;5;Course intermarché annif natacha;-147.51;1;0;2023-05-27 00:00:00
+363;5;Achat animal confort;-44.65;1;0;2023-05-27 00:00:00
+364;5;Achat lidleshop;-7.91;1;0;2023-05-27 00:00:00
+365;5;Course delhaize;-7.84;1;0;2023-05-29 00:00:00
+366;5;Prêt maison;-973.45;1;0;2023-06-01 00:00:00
+367;6;Salaire natacha;1929.85;1;0;2023-05-30 00:00:00
+368;6;Salaire fabian;3010.25;1;0;2023-05-30 00:00:00
+369;6;Achat à la pépinière fléron;-37.7;1;0;2023-05-30 00:00:00
+370;6;repas travail fabian et natacha;-50.9;1;0;2023-05-30 00:00:00
+371;6;Essence;-240.22;1;0;2023-05-30 00:00:00
+372;6;Achat action,annif éléna,jardin et divers;-37.7;1;0;2023-05-30 00:00:00
+373;6;Course colruyt;-652.32;1;0;2023-06-01 00:00:00
+374;6;Achat extra;-19.72;1;0;2023-05-31 00:00:00
+375;6;Achat dema terreau;-5.99;1;0;2023-06-01 00:00:00
+376;6;Visa(fabian 461,51/7,40 tristan et romain annif lenny);-584.63;1;0;2023-06-01 00:00:00
+377;6;De fabian pour visa;461.51;1;0;2023-06-01 00:00:00
+378;6;Facture électricité;-57.5;1;0;2023-06-04 00:00:00
+379;6;Facture voo;-76.24;1;0;2023-06-04 00:00:00
+380;6;Facture gsm les 3 garçons;-48;1;0;2023-06-04 00:00:00
+381;6;Facture entretien voiture fabian;-18.62;1;0;2023-06-04 00:00:00
+382;6;Assurance pension fabian;-50;1;0;2023-06-04 00:00:00
+383;6;Assurance juridique;-25.67;1;0;2023-06-04 00:00:00
+384;6;Achat action jardin et présent babou;-21.12;1;0;2023-06-04 00:00:00
+385;6;Sandwichs garçons;-12;1;0;2023-06-04 00:00:00
+386;6;Boulangerie;-27.2;1;0;2023-06-04 00:00:00
+387;6;Assurance enfants;-89.99;1;0;2023-06-04 00:00:00
+388;6;Assurance pension natacha;-52.73;1;0;2023-06-04 00:00:00
+389;6;Marché à spa;-23;1;0;2023-06-06 00:00:00
+390;6;Verres avec mymy(natacha);-7;1;0;2023-06-06 00:00:00
+391;6;Pitas/tacos à emporter;-34;1;0;2023-06-04 00:00:00
+392;6;Coiffeur garçons;-35;1;0;2023-06-06 00:00:00
+393;6;Photos école poupette;-26;1;0;2023-06-06 00:00:00
+394;6;Course intermarché;-136.85;1;0;2023-06-07 00:00:00
+395;6;Course lidl;-210.78;1;0;2023-06-07 00:00:00
+396;6;Allocations familiale;981.34;1;0;2023-06-07 00:00:00
+397;6;Assurance décès;-33.75;1;0;2023-06-07 00:00:00
+398;6;Jeu ps5 fête des pères;-45;1;0;2023-06-07 00:00:00
+399;6;argent de poche tristan(125-visa-8 fête des pères);-109.6;1;0;2023-06-07 00:00:00
+400;6;Argent de poche lenny-8 fête des pères;-42;1;0;2023-06-07 00:00:00
+401;6;Argent de poche romain-8 fête des pères -7,40 annif lenny;-14.6;1;0;2023-06-07 00:00:00
+402;6;Facture scarlet gsm nous deux;-22;1;0;2023-06-08 00:00:00
+403;6;Assurance voitures et familiale;-144.17;1;0;2023-06-08 00:00:00
+404;6;Vente œufs;18;1;0;2023-06-09 00:00:00
+405;6;Pharmacie;-37.64;1;0;2023-06-09 00:00:00
+406;6;Facture CHR tristan;-2.69;1;0;2023-06-09 00:00:00
+407;6;Facture CHR natacha;-16.14;1;0;2023-06-09 00:00:00
+408;6;Facture électricité juin;-50;1;0;2023-06-11 00:00:00
+409;6;Pizza à emporter;-41;1;0;2023-06-09 00:00:00
+410;6;Achat lidleshop stores + divers;-60.94;1;0;2023-06-11 00:00:00
+411;6;Boissons fabian à son concert;-6;1;0;2023-06-09 00:00:00
+412;6;Course Aldi;-53.48;1;0;2023-06-13 00:00:00
+413;6;Achat produit piscine;-17;1;0;2023-06-14 00:00:00
+414;6;Achat farmaline;-66.54;1;0;2023-06-14 00:00:00
+415;6;Garde natacha;222.18;1;0;2023-06-15 00:00:00
+416;6;Pneus voiture fabian;-164.68;1;0;2023-06-15 00:00:00
+417;6;Course delhaize;-13.89;1;0;2023-06-15 00:00:00
+418;6;Mis sur compte factures;-418;1;0;2023-06-15 00:00:00
+419;6;Achat action jardin,piscine et divers;-83.51;1;0;2023-06-16 00:00:00
+420;6;Achat trafic;-41.97;1;0;2023-06-16 00:00:00
+421;6;Cagnotte travail natacha 50 ans céline;-5;1;0;2023-06-16 00:00:00
+422;6;Achat amazon accessoires pour nous;-32.12;1;0;2023-06-17 00:00:00
+423;6;Sortie à spa avec les filles et mélissa;-12;1;0;2023-06-17 00:00:00
+424;6;Frite à emporter;-27.5;1;0;2023-06-18 00:00:00
+425;6;Achat kruidvat;-60.73;1;0;2023-06-18 00:00:00
+426;6;Facture école romain;-64.8;1;0;2023-06-18 00:00:00
+427;6;Achat de cannabis à bruneau;-50;1;0;2023-06-18 00:00:00
+428;6;Petits déjeuners à domicile;-42;1;0;2023-06-19 00:00:00
+429;6;Cadeau fête des pères papou;-12.5;1;0;2023-06-21 00:00:00
+430;6;Argent de poche natacha;-250;1;0;2023-06-21 00:00:00
+431;6;Argent de poche fabian;-300;1;0;2023-06-21 00:00:00
+432;6;Places pour tribute à lambermont;-36;1;0;2023-06-22 00:00:00
+433;6;Places festival aywaille;-96;1;0;2023-06-22 00:00:00
+434;6;Restaurant avec béa;-34.6;1;0;2023-06-22 00:00:00
+435;6;Marché à verviers;-78.5;1;0;2023-06-24 00:00:00
+436;6;Pizza à emporter;-28;1;0;2023-06-24 00:00:00
+437;6;Soirée musique fabian;-36;1;0;2023-06-24 00:00:00
+438;6;Garderie école anaïs;-1;1;0;2023-06-27 00:00:00
+439;6;Frite à emporter romain;-7;1;0;2023-06-27 00:00:00
+440;7;Salaire natacha;1933.13;1;0;2023-06-29 00:00:00
+441;7;Salaire fabian;3012.52;1;0;2023-06-29 00:00:00
+442;7;Achat action;-79.64;1;0;2023-06-29 00:00:00
+443;7;Concert à aywaille;-37;1;0;2023-06-30 00:00:00
+444;7;Concert à liège en train;-44;1;0;2023-06-29 00:00:00
+445;7;Course intermarché;-362.03;1;0;2023-06-30 00:00:00
+446;7;Pharmacie;-74.54;1;0;2023-07-01 00:00:00
+447;7;Solde kiabi;-21;1;0;2023-07-01 00:00:00
+448;7;Parking pour aller faire les soldes;-4.2;1;0;2023-07-01 00:00:00
+449;7;Solde twice &nice;-6;1;0;2023-07-01 00:00:00
+450;7;Soldes jeans fabian;-20;1;0;2023-07-01 00:00:00
+451;7;Repas travail fabian et natacha;-35;1;0;2023-07-01 00:00:00
+452;7;orthodontiste romain;-20.5;1;0;2023-07-01 00:00:00
+453;7;De mélissa pour hôtel saint-raphaël;278;1;0;2023-07-01 00:00:00
+454;7;Boulangerie;-50;1;0;2023-07-01 00:00:00
+455;7;Assurance pension fabian;-50;1;0;2023-07-03 00:00:00
+456;7;Visa(14,97 tristan);-965.44;1;0;2023-07-03 00:00:00
+457;7;Activité Anaïs école;-4;1;0;2023-07-03 00:00:00
+458;7;De natacha visa;278;1;0;2023-07-03 00:00:00
+459;7;Pizza à emporter;-53;1;0;2023-07-03 00:00:00
+460;7;Du compte loisirs pour visa;296;1;0;2023-07-03 00:00:00
+461;7;Assurances enfants;-89.99;1;0;2023-07-03 00:00:00
+462;7;Assurance pension natacha;-52.73;1;0;2023-07-03 00:00:00
+463;7;Frais scolaire lenny;-10;1;0;2023-07-03 00:00:00
+464;7;Facture CHR opération tristan;-21.08;1;0;2023-07-03 00:00:00
+465;7;Argent de poche tristan;-125;1;0;2023-07-03 00:00:00
+466;7;Argent de poche lenny;-50;1;0;2023-07-03 00:00:00
+467;7;Argent de poche romain;-30;1;0;2023-07-03 00:00:00
+468;7;Course lidl;-159;1;0;2023-07-04 00:00:00
+469;7;Assurance juridique;-25.67;1;0;2023-07-05 00:00:00
+470;7;Achat animal confort;-15.75;1;0;2023-07-05 00:00:00
+471;7;Course colruyt;-541.46;1;0;2023-07-05 00:00:00
+472;7;Essence;-185.03;1;0;2023-07-05 00:00:00
+473;7;Frais scolaire romain;-15.4;1;0;2023-07-05 00:00:00
+474;7;Gsm garçons;-48;1;0;2023-07-05 00:00:00
+475;7;Assurance décès;-37.55;1;0;2023-07-07 00:00:00
+476;7;Allocations familiales;981.34;1;0;2023-07-07 00:00:00
+477;7;Facture scarlet nous deux;-21;1;0;2023-07-07 00:00:00
+478;7;Achat action(16,58 romain),annif zoé,divers;-56.17;1;0;2023-07-08 00:00:00
+479;7;Solde zeeman;-43.92;1;0;2023-07-10 00:00:00
+480;7;Solde + courses GB;-16.65;1;0;2023-07-10 00:00:00
+481;7;Solde + course Kruidvat;-45.14;1;0;2023-07-10 00:00:00
+482;7;Solde bristol;-39.99;1;0;2023-07-10 00:00:00
+483;7;Achat chaussures natacha et anaïs;-103.54;1;0;2023-07-11 00:00:00
+484;7;Assurance familiale et voitures;-144.17;1;0;2023-07-11 00:00:00
+485;7;Solde tristan chaussure et vêtement;-100;1;0;2023-07-11 00:00:00
+486;7;remboursement de la mutuelle ortho romain;14;1;0;2023-07-11 00:00:00
+487;7;Jeu ordi romain;-19.79;1;0;2023-07-11 00:00:00
+488;7;Achat thoman fabian;-85.1;1;0;2023-07-11 00:00:00
+489;7;Librairie;-7.9;1;0;2023-07-11 00:00:00
+490;7;Electricité;-50;1;0;2023-07-11 00:00:00
+491;7;Gulpen enfants;-40;1;0;2023-07-09 00:00:00
+492;7;Fête de la cerise en amoureux;-43;1;0;2023-07-08 00:00:00
+493;7;Ostéopathe natacha;-55;1;0;2023-07-14 00:00:00
+494;7;Garde natacha;181.13;1;0;2023-07-14 00:00:00
+495;7;Activité châteaux gonflables;-35;1;0;2023-07-18 00:00:00
+496;7;Animal confort;-22.7;1;0;2023-07-19 00:00:00
+497;7;remboursement photo poupette de babou;8;1;0;2023-07-20 00:00:00
+498;7;Journée à gulpen avec les enfants;-33.95;1;0;2023-07-20 00:00:00
+499;7;Mis de côté sur compte loiris;-893;1;0;2023-07-21 00:00:00
+500;7;De romain pour achat action;16.58;1;0;2023-07-21 00:00:00
+501;7;Argent de poche fabian;-215;1;0;2023-07-21 00:00:00
+502;7;Argent de poche natacha;-250;1;0;2023-07-21 00:00:00
+503;7;Essence pour tristan;-60;1;0;2023-07-21 00:00:00
+504;7;Marché à aywaille;-40;1;0;2023-07-22 00:00:00
+505;7;Solde trafic + divers;-38.19;1;0;2023-07-23 00:00:00
+506;7;Course GB;-17.5;1;0;2023-07-24 00:00:00
+507;7;Bowling en famille;-54.8;1;0;2023-07-24 00:00:00
+508;7;Facture voo;-86;1;0;2023-07-24 00:00:00
+509;7;Soldes C&A+ annif will;-54.92;1;0;2023-07-26 00:00:00
+510;7;Solde Ccourir romain;-57.5;1;0;2023-07-26 00:00:00
+511;7;Achat action(annif will,3,19 natacha);-46.35;1;0;2023-07-26 00:00:00
+512;7;Solde body shop(natacha);-68.04;1;0;2023-07-26 00:00:00
+513;7;Carrousel poupette belle-île;-5;1;0;2023-07-26 00:00:00
+514;7;Quick romain belle-île;-10;1;0;2023-07-26 00:00:00
+515;7;Solde célio romain;-50;1;0;2023-07-27 00:00:00
+516;7;Prêt maison;-973.45;1;0;2023-07-31 00:00:00
+517;8;Salaire Fabian;3004.89;1;0;2023-07-29 00:00:00
+518;8;Salaire natacha;1933.12;1;0;2023-07-29 00:00:00
+519;8;Course intermarché (19,50 babou);-65.58;1;0;2023-07-31 00:00:00
+520;8;Essence;-280;1;0;2023-07-31 00:00:00
+521;8;Fête à louvegnié;-114;1;0;2023-07-31 00:00:00
+522;8;Coiffeur garçons;-35;1;0;2023-07-28 00:00:00
+523;8;Courses babou;25;1;0;2023-07-31 00:00:00
+524;8;Repas fabian et natacha;-30;1;0;2023-07-31 00:00:00
+525;8;de mélissa pour visa;301.62;1;0;2023-07-31 00:00:00
+526;8;Boulangerie;-40;1;0;2023-07-31 00:00:00
+527;8;Pizza à emporter;-62;1;0;2023-07-31 00:00:00
+528;8;Partie des pneus tristan;-40;1;0;2023-07-31 00:00:00
+529;8;Soirée bande à lolo lenny;-9;1;0;2023-08-01 00:00:00
+530;8;Assurance pension fabian;-50;1;0;2023-08-02 00:00:00
+531;8;Tramoline parc romain et poupette;-17.5;1;0;2023-08-02 00:00:00
+532;8;Boulangerie nous et babou;-16.4;1;0;2023-08-02 00:00:00
+533;8;Course colruyt;-773.88;1;0;2023-08-02 00:00:00
+534;8;Tacos liège garçons;-45;1;0;2023-08-02 00:00:00
+535;8;Course GB;-10;1;0;2023-08-02 00:00:00
+536;8;Visa(67,53 fabian/20,89 lenny/215,13 natacha);-800.26;1;0;2023-08-02 00:00:00
+537;8;De natacha visa;215.13;1;0;2023-08-02 00:00:00
+538;8;Solde chaussure natacha;-27.48;1;0;2023-08-04 00:00:00
+539;8;Achat décathlon(annif alix et divers);-18;1;0;2023-08-04 00:00:00
+540;8;Course intermarché;-65.75;1;0;2023-08-04 00:00:00
+541;8;Achat kruidvat;-8.16;1;0;2023-08-04 00:00:00
+542;8;Course lidl;-122.99;1;0;2023-08-06 00:00:00
+543;8;Assurance juridique;-25.67;1;0;2023-08-06 00:00:00
+544;8;Assurance décès;-37.55;1;0;2023-08-06 00:00:00
+545;8;Assurance enfants;-89.99;1;0;2023-08-06 00:00:00
+546;8;Du compte loisirs pour les activités pendant les vacances;500;1;0;2023-08-06 00:00:00
+547;8;Solde eau courante;-282.23;1;0;2023-08-06 00:00:00
+548;8;Assurance pension natacha;-52.73;1;0;2023-08-06 00:00:00
+549;8;Course Aldi;-19;1;0;2023-08-06 00:00:00
+550;8;Facture garage voiture fabian;-43.56;1;0;2023-08-06 00:00:00
+551;8;Vidange fosse septique;-150;1;0;2023-08-06 00:00:00
+552;8;Journée au trampoline parc en famille;-55;1;0;2023-08-06 00:00:00
+553;8;Achat action;-29.34;1;0;2023-08-07 00:00:00
+554;8;Facture scarlet;-21;1;0;2023-08-07 00:00:00
+555;8;Achat C&A tristan;-39.98;1;0;2023-08-07 00:00:00
+556;8;Allocations familiales;1278.31;1;0;2023-08-07 00:00:00
+557;8;De babou pour boulangerie;15.5;1;0;2023-08-07 00:00:00
+558;8;Course lidl pour vacances;-200;1;0;2023-08-09 00:00:00
+559;8;Après-midi bowling avec babeth;-50;1;0;2023-08-09 00:00:00
+560;8;Walibi en famille;-110;1;0;2023-08-08 00:00:00
+561;8;Bon cadeau papy anniversaire +  pizzas à emporter pour annif;-110;1;0;2023-08-09 00:00:00
+562;8;Assurance voitures et familiale;-144.17;1;0;2023-08-09 00:00:00
+563;8;Vacances en famille;-1750;1;0;2023-08-11 00:00:00
+564;8;Essence en vacances;-40;1;0;2023-08-11 00:00:00
+565;8;Du compte loisirs pour vacances;1000;1;0;2023-08-15 00:00:00
+566;8;gardes juillet natacha;314.6;1;0;2023-08-18 00:00:00
+567;8;Achat filtres citerne d'eau de pluie;-32.12;1;0;2023-08-18 00:00:00
+568;8;Achat cartes familles nombreuses;-11;1;0;2023-08-18 00:00:00
+569;8;Course lidl;-16.79;1;0;2023-08-18 00:00:00
+570;8;Achat animal confort;-40.45;1;0;2023-08-18 00:00:00
+571;8;Electricité;-50;1;0;2023-08-18 00:00:00
+572;8;Mis de côté sur compte factures;-367;1;0;2023-08-18 00:00:00
+573;8;Facture voo;-76;1;0;2023-08-18 00:00:00
+574;8;Fête médiéval les garçons(15 clarisse);-75;1;0;2023-08-20 00:00:00
+575;8;Boissons fête médiéval;-30;1;0;2023-08-20 00:00:00
+576;8;Aywaille les bains;-35;1;0;2023-08-20 00:00:00
+577;8;Prêt mamoun + œufs;-205;1;0;2023-08-20 00:00:00
+578;8;Envoi par mondial relay;-3.75;1;0;2023-08-24 00:00:00
+579;8;ORL anaïs;-50;1;0;2023-08-24 00:00:00
+580;8;Achat farmaline;-70;1;0;2023-08-23 00:00:00
+581;8;Soirée en amoureux à la fiesta city;-50;1;0;2023-08-26 00:00:00
+582;8;brocante à la reid;-35;1;0;2023-08-27 00:00:00
+583;8;Argent de poche natacha;-150;1;0;2023-08-28 00:00:00
+584;8;Argent de poche fabian;-128.72;1;0;2023-08-28 00:00:00
+585;8;Pizza à emporter;-51;1;0;2023-08-28 00:00:00
+586;9;Salaire natacha;2037.85;1;0;2023-08-30 00:00:00
+587;9;Salaire fabian;3023.42;1;0;2023-08-30 00:00:00
+588;9;Course Aldi;-64.92;1;0;2023-08-31 00:00:00
+589;9;Pv stationnement travail natacha;-58;1;0;2023-08-30 00:00:00
+590;9;Achat action;-78.41;1;0;2023-08-31 00:00:00
+591;9;Frites à emporter;-30;1;0;2023-09-02 00:00:00
+592;9;Courses GB;-21.9;1;0;2023-09-03 00:00:00
+593;9;Boulangerie;-55;1;0;2023-09-04 00:00:00
+594;9;Essence;-172.14;1;0;2023-09-05 00:00:00
+595;9;Achat zeeman slips;-22;1;0;2023-09-05 00:00:00
+596;9;Petite partie pour achat TV;-10;1;0;2023-09-05 00:00:00
+597;9;Assurance juridique;-25.67;1;0;2023-09-05 00:00:00
+598;9;Assurance enfants;-89.99;1;0;2023-09-05 00:00:00
+599;9;Repas fabian travail;-47;1;0;2023-09-05 00:00:00
+600;9;Assurance pension fabian;-50;1;0;2023-09-05 00:00:00
+601;9;Cadeau collègue travail fabian;-6.5;1;0;2023-09-04 00:00:00
+602;9;Visa;-566.87;1;0;2023-09-05 00:00:00
+603;9;Achat pneus fabian;-161.6;1;0;2023-09-05 00:00:00
+604;9;Course colruyt;-594.54;1;0;2023-09-06 00:00:00
+605;9;Achat farmaline;-51.68;1;0;2023-09-06 00:00:00
+606;9;Assurance décès;-37.55;1;0;2023-09-06 00:00:00
+607;9;Pharmacie;-8.68;1;0;2023-09-06 00:00:00
+608;9;Frais scolaire tristan;-269.6;1;0;2023-09-06 00:00:00
+609;9;Frais scolaire lenny;-60;1;0;2023-09-06 00:00:00
+610;9;Facture CHU prise de sang tristan;-12.96;1;0;2023-09-06 00:00:00
+611;9;Course Lidl;-76.33;1;0;2023-09-06 00:00:00
+612;9;Facture scarlet;-21;1;0;2023-09-06 00:00:00
+613;9;Facture GSM garçons;-48;1;0;2023-09-06 00:00:00
+614;9;Facture Voo;-76.12;1;0;2023-09-06 00:00:00
+615;9;Argent de poche tristan;-125;1;0;2023-09-07 00:00:00
+616;9;Argent de poche lenny;-50;1;0;2023-09-07 00:00:00
+617;9;Argent de poche romain;-25;1;0;2023-09-07 00:00:00
+618;9;Partie entretien voiture tristan;-79;1;0;2023-09-07 00:00:00
+619;9;Achat action;-30.67;1;0;2023-09-07 00:00:00
+620;9;Achat kruidvat;-32.21;1;0;2023-09-07 00:00:00
+621;9;Abonnement bus les 2 grands;-122.6;1;0;2023-09-07 00:00:00
+622;9;Vétérinaire rouki;-100.1;1;0;2023-09-10 00:00:00
+623;9;Marché à aywaille;-25;1;0;2023-09-09 00:00:00
+624;9;Assurance voitures et familiale;-144.17;1;0;2023-09-11 00:00:00
+625;9;Allocations familiales;981.34;1;0;2023-09-11 00:00:00
+626;9;Mis de côté septembre égypte;-200;1;0;2023-09-11 00:00:00
+627;9;Marché à spa avec jesse(2,50 euros mélissa);-35.5;1;0;2023-09-12 00:00:00
+628;9;Achat trafic;-6.79;1;0;2023-09-12 00:00:00
+629;9;Location appartement séjour en amoureux;-362.79;1;0;2023-09-12 00:00:00
+630;9;Achat décathlon annif fabian(15 chacun);-45;1;0;2023-09-12 00:00:00
+631;9;Achat extra;-13.78;1;0;2023-09-13 00:00:00
+632;9;Lavage fenêtre verrière;-50;1;0;2023-09-14 00:00:00
+633;9;Destruction nid de frelon;-50;1;0;2023-09-14 00:00:00
+634;9;De vinted vente vêtements;39.31;1;0;2023-09-14 00:00:00
+635;9;Course intermarché;-87.03;1;0;2023-09-14 00:00:00
+636;9;Prêt mamoun;-200;1;0;2023-09-14 00:00:00
+637;9;Assurance pension natacha;-52.73;1;0;2023-09-15 00:00:00
+638;9;Frite à emporter;-26;1;0;2023-09-15 00:00:00
+639;9;Soirée en amoureux;-36;1;0;2023-09-16 00:00:00
+640;9;Changement de pneus voiture fabian;-30;1;0;2023-09-18 00:00:00
+641;9;Auto sécurité voiture fabian;-55.7;1;0;2023-09-19 00:00:00
+642;9;Coiffeur toute la famille;-75;1;0;2023-09-19 00:00:00
+643;9;Dommage accident de vélo romain;-160.68;1;0;2023-09-20 00:00:00
+644;9;Annif bruneau;-25;1;0;2023-09-21 00:00:00
+645;9;Auto-sécurité voiture natacha;-55.7;1;0;2023-09-22 00:00:00
+646;9;Achat décathlon basket lenny;-25;1;0;2023-09-22 00:00:00
+647;9;Achat kruidvat;-13;1;0;2023-09-22 00:00:00
+648;9;Achat action (annif aurélie/mélissa et divers);-30;1;0;2023-09-23 00:00:00
+649;9;De romain annif fabian;15;1;0;2023-09-24 00:00:00
+650;9;Vente œufs kévin;5;1;0;2023-09-24 00:00:00
+651;9;Place cinéma romain;-10;1;0;2023-09-24 00:00:00
+652;9;Sandwichs lenny et romain;-8;1;0;2023-09-24 00:00:00
+653;10;Salaire Fabian;2998.95;1;0;2023-09-29 00:00:00
+654;10;Salaire natacha;2028.05;1;0;2023-09-29 00:00:00
+655;10;Cinéma avec lenny et frite;-33;1;0;2023-09-29 00:00:00
+656;10;Course lidl;-104.98;1;0;2023-09-29 00:00:00
+657;10;Essence;-292.01;1;0;2023-09-29 00:00:00
+658;10;Repas travail fabian;-26.2;1;0;2023-09-29 00:00:00
+659;10;Frite à emporter;-35;1;0;2023-09-29 00:00:00
+660;10;Boulangerie;-20;1;0;2023-09-29 00:00:00
+661;10;Visa(50 tristan prêt imprimante);-1651.13;1;0;2023-09-29 00:00:00
+662;10;Pour visa du compte loisirs;480;1;0;2023-10-01 00:00:00
+663;10;Pour visa natacha;648;1;0;2023-10-01 00:00:00
+664;10;De mélissa pour visa;70;1;0;2023-10-01 00:00:00
+665;10;Courses auchan luxembourg;-20.14;1;0;2023-10-01 00:00:00
+666;10;Achat action;-70.42;1;0;2023-10-01 00:00:00
+667;10;Course colruyt;-290.52;1;0;2023-10-02 00:00:00
+668;10;Achat smartoys lenny;-10;1;0;2023-10-02 00:00:00
+669;10;Tacos les garçons;-41.87;1;0;2023-10-02 00:00:00
+670;10;Séjour en amoureux;-653;1;0;2023-10-02 00:00:00
+671;10;Pharmacie;-16.12;1;0;2023-10-03 00:00:00
+672;10;Viande;-48.72;1;0;2023-10-04 00:00:00
+673;10;Légumier;-8.81;1;0;2023-10-04 00:00:00
+674;10;Assurance pension fabian;-50;1;0;2023-10-04 00:00:00
+675;10;Assurance enfants;-89.99;1;0;2023-10-04 00:00:00
+676;10;Assurance juridique;-25.67;1;0;2023-10-04 00:00:00
+677;10;Auto-securité;-15.4;1;0;2023-10-05 00:00:00
+678;10;Allocations familiales;981.34;1;0;2023-10-05 00:00:00
+679;10;Course lidl;-50;1;0;2023-10-05 00:00:00
+680;10;Assurance décès;-37.55;1;0;2023-10-05 00:00:00
+681;10;Argent de poche tristan+taxi au luxembourg;-160;1;0;2023-10-05 00:00:00
+682;10;Argent de poche lenny- annif nounou-jeu ps4;-25;1;0;2023-10-05 00:00:00
+683;10;Entretien voiture natacha;-559.98;1;0;2023-10-05 00:00:00
+684;10;Entretien voiture fabian;-357.05;1;0;2023-10-05 00:00:00
+685;10;Assurance pension natacha;-52.73;1;0;2023-10-05 00:00:00
+686;10;Facture eau courante;-152.58;1;0;2023-10-05 00:00:00
+687;10;Du compte loisirs pour séjour;500;1;0;2023-10-05 00:00:00
+688;10;facture voo gsm garçons;-48;1;0;2023-10-06 00:00:00
+689;10;Electricité;-80;1;0;2023-10-06 00:00:00
+690;10;Scarlet;-31.77;1;0;2023-10-06 00:00:00
+691;10;Course delhaize;-28.43;1;0;2023-10-06 00:00:00
+692;10;Marché à verviers;-25;1;0;2023-10-07 00:00:00
+693;10;Brocante sprimont vêtements et glaces;-21.5;1;0;2023-10-08 00:00:00
+694;10;Achat animal confort;-36.6;1;0;2023-10-09 00:00:00
+695;10;Achat farmaline;-50.3;1;0;2023-10-09 00:00:00
+696;10;Vétérinaire rouki;-96.6;1;0;2023-10-09 00:00:00
+697;10;Cahiers école romain;-68.6;1;0;2023-10-10 00:00:00
+698;10;Assurance voitures et familiale;-144.17;1;0;2023-10-10 00:00:00
+699;10;Sortie avec babeth à spa;-10;1;0;2023-10-10 00:00:00
+700;10;Courses intermarché;-237.33;1;0;2023-10-12 00:00:00
+701;10;De babou photo école romain;8;1;0;2023-10-13 00:00:00
+702;10;Ostéopathe romain;-55;1;0;2023-10-13 00:00:00
+703;10;Photo  école romain;-20;1;0;2023-10-13 00:00:00
+704;10;Point chaud avec les filles + boulangerie;-15.15;1;0;2023-10-12 00:00:00
+705;10;gardes CHR natacha;173.27;1;0;2023-10-13 00:00:00
+706;10;Electricité;-80;1;0;2023-10-13 00:00:00
+707;10;Mis de côté sur compte loisirs égypte;-202;1;0;2023-10-13 00:00:00
+708;10;Argent de poche romain;-12.4;1;0;2023-10-13 00:00:00
+709;10;Mariage tamara;-100;1;0;2023-10-14 00:00:00
+710;10;Anniversaire lola;-15;1;0;2023-10-14 00:00:00
+711;10;Spectacle école poupette;-14;1;0;2023-10-14 00:00:00
+712;10;Foire aux macarons;-22.5;1;0;2023-10-16 00:00:00
+713;10;Achat jeux d'occasion pour les fêtes;-5;1;0;2023-10-17 00:00:00
+714;10;Achat zeeman fêtes;-4.97;1;0;2023-10-17 00:00:00
+715;10;Sandwichs romain école;-3.5;1;0;2023-10-18 00:00:00
+716;10;Achat kruidvat;-22.48;1;0;2023-10-18 00:00:00
+717;10;Achat action fêtes/annif tristan et divers;-111.12;1;0;2023-10-18 00:00:00
+718;10;De romain annif tristan;9;1;0;2023-10-18 00:00:00
+719;10;Annif tristan;-60;1;0;2023-10-18 00:00:00
+720;10;Course Aldi;-25.77;1;0;2023-10-21 00:00:00
+721;10; achat croquettes école poupette;-20;1;0;2023-10-21 00:00:00
+722;10;Restaurant tristan et fabian à cologne;-41.5;1;0;2023-10-22 00:00:00
+723;10;Trampoling parc poupette et romain;-23;1;0;2023-10-25 00:00:00
+724;10;Location répétition fabian et tristan;-26;1;0;2023-10-26 00:00:00
+725;10;Courses+pain+pharmacie faites par tristan;-55;1;0;2023-10-27 00:00:00
+726;10;Soirée en amoureux;-71.8;1;0;2023-10-28 00:00:00
+727;10;pomme d'amour de la foire;-8;1;0;2023-10-28 00:00:00
+728;10;Sachet de chic estelle saint-nicolas;-6.5;1;0;2023-10-28 00:00:00
+729;10;Pizza à emporter;-48;1;0;2023-10-28 00:00:00
+730;10;Prêt maison;-973;1;0;2023-10-31 00:00:00
+731;10;Halloween aywaille;-10;1;0;2023-10-29 00:00:00
+732;10;Prêt mamoun;-100;1;0;2023-10-30 00:00:00
+733;11;Salaire fabian;3045.33;1;0;2023-10-30 00:00:00
+734;11;Salaire natacha;2096.08;1;0;2023-10-30 00:00:00
+735;11;Achat action fêtes + divers(3 lenny);-166.99;1;0;2023-10-31 00:00:00
+736;11;Courses lidl;-145;1;0;2023-10-31 00:00:00
+737;11;Achat décathlon baskets romain et poupette;-53;1;0;2023-10-31 00:00:00
+738;11;Achat kruidvat;-15.78;1;0;2023-10-31 00:00:00
+739;11;Achat lasagnes école lenny;-25;1;0;2023-10-31 00:00:00
+740;11;Soirée 90/2000 avec les filles;-8;1;0;2023-10-31 00:00:00
+741;11;Essence;-230.3;1;0;2023-10-31 00:00:00
+742;11;Courses inter-marché;-8.65;1;0;2023-11-01 00:00:00
+743;11;Courses euro italia;-45.88;1;0;2023-11-01 00:00:00
+744;11;Foire à huy;-100;1;0;2023-11-01 00:00:00
+745;11;Chateaux gonflables bomal;-34;1;0;2023-11-04 00:00:00
+746;11;Aquaplopsa hannut;-29;1;0;2023-11-01 00:00:00
+747;11;Boulangerie;-45;1;0;2023-11-02 00:00:00
+748;11;Course colruyt;-370;1;0;2023-11-02 00:00:00
+749;11;Visa;-392.51;1;0;2023-11-02 00:00:00
+750;11;Assurance enfants;-89.99;1;0;2023-11-02 00:00:00
+751;11;Assurance pension natacha;-52.73;1;0;2023-11-02 00:00:00
+752;11;Cadastre;-906.76;1;0;2023-11-02 00:00:00
+753;11;Cadastre du compte loiris;906.76;1;0;2023-11-02 00:00:00
+754;11;Pour visa et achat four du compte loisirs;400;1;0;2023-11-02 00:00:00
+755;11;Assurance pension fabian;-50;1;0;2023-11-03 00:00:00
+756;11;Achat primarkt fêtes et divers;-109.7;1;0;2023-11-04 00:00:00
+757;11;Glaces et aufre médimarket;-5.8;1;0;2023-11-04 00:00:00
+758;11;Achat Temu fêtes et divers;-228.19;1;0;2023-11-05 00:00:00
+759;11;Garderie école poupette;-1;1;0;2023-11-05 00:00:00
+760;11;Gsm garçons;-48;1;0;2023-11-05 00:00:00
+761;11;Facture voo;-76;1;0;2023-11-05 00:00:00
+762;11;Argent de poche tristan;-115;1;0;2023-11-05 00:00:00
+763;11;Argent de poche lenny;-47;1;0;2023-11-05 00:00:00
+764;11;Argent de poche romain+partie bouff walibi;-35;1;0;2023-11-05 00:00:00
+765;11;Repas travail fabian et natacha;-25;1;0;2023-11-06 00:00:00
+766;11;Achat farmaline;-41.51;1;0;2023-11-06 00:00:00
+767;11;Facture gsm nous deux;-21.97;1;0;2023-11-06 00:00:00
+768;11;Location voiture  nice;-326;1;0;2023-11-06 00:00:00
+769;11;Allocations familiales;981.34;1;0;2023-11-07 00:00:00
+770;11;Assurance juridique;-25.67;1;0;2023-11-07 00:00:00
+771;11;Assurance dela;-37.55;1;0;2023-11-07 00:00:00
+772;11;Répétition groupe fabian et tristan;-21.5;1;0;2023-11-08 00:00:00
+773;11;Courses inter-marché;-195.13;1;0;2023-11-08 00:00:00
+774;11;Assurance voitures/familiale;-144.17;1;0;2023-11-08 00:00:00
+775;11;remboursement mutuelle;31.08;1;0;2023-11-09 00:00:00
+776;11;Électricité;-80;1;0;2023-11-09 00:00:00
+777;11;Pizza à emporter;-48;1;0;2023-11-10 00:00:00
+778;11;Romain et lenny après-midi cinéma et Mcdo;-40.6;1;0;2023-11-11 00:00:00
+779;11;Mis de côté sur compte loisirs égypte;-100;1;0;2023-11-15 00:00:00
+780;11;Argent de poche fabian et natacha;-250;1;0;2023-11-15 00:00:00
+781;11;Pharmacie;-11.66;1;0;2023-11-17 00:00:00
+782;11;Restaurant entre collègues;-40;1;0;2023-11-17 00:00:00
+783;11;Achat animal confort;-43.65;1;0;2023-11-18 00:00:00
+784;11;Chinois à emporter;-43;1;0;2023-11-18 00:00:00
+785;11;Achat farmaline;-52.93;1;0;2023-11-21 00:00:00
+786;11;Essence tristan;-70;1;0;2023-11-21 00:00:00
+787;11;Mis de côté sur compte facture;-900;1;0;2023-11-21 00:00:00
+788;11;Courses delhaize;-10;1;0;2023-11-22 00:00:00
+789;11;Acompte stage anaïs payé;-30;1;0;2023-11-22 00:00:00
+790;11;Sandwich école lenny et romain;-8;1;0;2023-11-24 00:00:00
+791;11;Dîner avec mélissa pour son annif;-25.6;1;0;2023-11-24 00:00:00
+792;11;remboursement mutuelle;12;1;0;2023-11-24 00:00:00
+793;11;Course inter-marché;-150;1;0;2023-11-24 00:00:00
+794;11;Achat action fêtes et divers;-45.47;1;0;2023-11-24 00:00:00
+795;11;Achat aliexpress fêtes;-55.59;1;0;2023-11-26 00:00:00
+796;11;Coiffeur;-60;1;0;2023-11-26 00:00:00
+797;11;Frites à emporter;-13;1;0;2023-11-26 00:00:00
+798;11;Cadeau fête alex;-6;1;0;2023-11-26 00:00:00
+799;11;Commande truffes à marie famrée;-5;1;0;2023-11-26 00:00:00
+800;11;Commande chics à bastien;-6;1;0;2023-11-26 00:00:00
+801;11;Achat Temu fêtes;-27.53;1;0;2023-11-27 00:00:00
+802;11;Achat zeeman;-13.97;1;0;2023-11-28 00:00:00
+803;11;Poulet roti sur le marché;-14;1;0;2023-11-28 00:00:00
+804;11;Prêt mamoun;-100;1;0;2023-11-28 00:00:00
+805;11;Prêt maison;-973.45;1;0;2023-11-30 00:00:00
+806;12;Salaire fabian;3041.5;1;0;2023-11-28 00:00:00
+807;12;Salaire natacha;2039.89;1;0;2023-11-28 00:00:00
+808;12;Course colruyt;-658.33;1;0;2023-11-30 00:00:00
+809;12;Sandwich école romain et lenny;-12.5;1;0;2023-11-30 00:00:00
+810;12;Achat action fêtes et divers(2,50 chaque enfant);-88.86;1;0;2023-11-30 00:00:00
+811;12;Course aldi;-21.15;1;0;2023-11-30 00:00:00
+812;12;Essence;-202.65;1;0;2023-11-30 00:00:00
+813;12;Repas travail fabian et natacha;-28;1;0;2023-11-30 00:00:00
+814;12;Course intermarché;-111.37;1;0;2023-11-30 00:00:00
+815;12;Achat yves rocher;-54.96;1;0;2023-12-01 00:00:00
+816;12;Soin visage et soin des pieds/mains natacha;-90;1;0;2023-12-01 00:00:00
+817;12;Pyroling natacha pour soins et achat yves rocher;80.85;1;0;2023-12-01 00:00:00
+818;12;Présent pour soirée nicolas babou;-6.98;1;0;2023-12-02 00:00:00
+819;12;Frite à emporter;-38;1;0;2023-12-01 00:00:00
+820;12;Visa(94,11 fabian);-334.72;1;0;2023-12-04 00:00:00
+821;12;location chromebook école romain;-55;1;0;2023-12-04 00:00:00
+822;12;Assurance enfants;-89.99;1;0;2023-12-04 00:00:00
+823;12;Facture CMH hélicoptère;-47;1;0;2023-12-04 00:00:00
+824;12;Facture prise de sang CHR verviers;-12.96;1;0;2023-12-04 00:00:00
+825;12;Taxe de circulation voiture tristan(100 tristan);-176.62;1;0;2023-12-04 00:00:00
+826;12;Assurance pension natacha;-52.73;1;0;2023-12-04 00:00:00
+827;12;Facture CHU rendez-vous non annulé tristan;-20;1;0;2023-12-04 00:00:00
+828;12;Assurance pension fabian;-50;1;0;2023-12-04 00:00:00
+829;12;Bois de chauffage;-160;1;0;2023-12-04 00:00:00
+830;12;de babou pour fêtes;15;1;0;2023-12-04 00:00:00
+831;12;Boulangerie;-35;1;0;2023-12-05 00:00:00
+832;12;Anniversaire romain;-60;1;0;2023-12-08 00:00:00
+833;12;Course delhaize;-6.21;1;0;2023-12-08 00:00:00
+834;12;Cadeau annif romain des enfants(6,70 chacun);-20;1;0;2023-12-08 00:00:00
+835;12;Allocations familiales;1000.96;1;0;2023-12-08 00:00:00
+836;12;Assurance juridique;-25.67;1;0;2023-12-08 00:00:00
+837;12;Assurance décès;-37.55;1;0;2023-12-08 00:00:00
+838;12;Achat temu fêtes + divers;-40.88;1;0;2023-12-08 00:00:00
+839;12;Facture GSM nous deux;-26;1;0;2023-12-08 00:00:00
+840;12;Argent de poche tristan;-115.8;1;0;2023-12-10 00:00:00
+841;12;Argent de poche lenny;-40.8;1;0;2023-12-10 00:00:00
+842;12;Soirée 66 verviers avec mélissa;-28;1;0;2023-12-09 00:00:00
+843;12;Vente pneus hiver;30;1;0;2023-12-10 00:00:00
+844;12;Anniversaire lucas;-15;1;0;2023-12-10 00:00:00
+845;12;Gsm des garçons;-48;1;0;2023-12-10 00:00:00
+846;12;Achat action fête et divers;-43.98;1;0;2023-12-13 00:00:00
+847;12;Places de concert tribute patrick bruel;-36;1;0;2023-12-13 00:00:00
+848;12;Assurance voitures et familiale;-144.17;1;0;2023-12-13 00:00:00
+849;12;Facture électricité;-80;1;0;2023-12-13 00:00:00
+850;12;Facture voo;-72.12;1;0;2023-12-13 00:00:00
+851;12;Achat kruidvat fêtes et divers;-48.21;1;0;2023-12-16 00:00:00
+852;12;Soirée annif nuno et concert;-71.5;1;0;2023-12-15 00:00:00
+853;12;Course Lidl;-21.99;1;0;2023-12-15 00:00:00
+854;12;Marché de noël école anaïs;-18;1;0;2023-12-15 00:00:00
+855;12;Taxe voiture natacha;-285.38;1;0;2023-12-18 00:00:00
+856;12;Entretient chaudière;-80;1;0;2023-12-19 00:00:00
+857;12;cadeau fêtes papou et mamoun;-30;1;0;2023-12-18 00:00:00
+858;12;Facture livre école romain;-11.9;1;0;2023-12-19 00:00:00
+859;12;Classe verte romain avec son école;-57.5;1;0;2023-12-19 00:00:00
+860;12;Achat café école à clara de jesse;-13.5;1;0;2023-12-19 00:00:00
+861;12;Achat carte ps4 fêtes;-20;1;0;2023-12-21 00:00:00
+862;12;Achat pralines enfants fête fabian(3,50 chacun);-14;1;0;2023-12-21 00:00:00
+863;12;Achat poulet roti;-14.35;1;0;2023-12-20 00:00:00
+864;12;Achat ticket concert balavoine;-66;1;0;2023-12-21 00:00:00
+865;12;Solde voyage lenny Sénégal;-200;1;0;2023-12-21 00:00:00
+866;12;Argent de poche fabian et natacha;-400;1;0;2023-12-21 00:00:00
+867;12;Prêt mamoun;-100;1;0;2023-12-21 00:00:00
+868;12;Mis de côté égypte;-100;1;0;2023-12-21 00:00:00
+869;12;Restant prime de fin d'année;84;1;0;2023-12-22 00:00:00
+870;12;De steacy pour concert balavoine;25;1;0;2023-12-22 00:00:00
+871;12;Concert tribute golman en amoureux;-88;1;0;2023-12-22 00:00:00
+872;12;Pizza à emporter;-43;1;0;2023-12-21 00:00:00
+873;12;Permis théorique lenny;-16;1;0;2023-12-27 00:00:00
+874;12;Annif bastien;-30;1;0;2023-12-27 00:00:00
+875;12;Courses pour les fêtes;-20;1;0;2023-12-27 00:00:00
+876;12;Achat action fêtes et divers(2,50 chaque enfant);-29;1;0;2023-12-27 00:00:00
+877;12;Cours d'auto-école lenny pour permis théorique;-150;1;0;2023-12-27 00:00:00
+878;12;Course intermarché fêtes;-141.53;1;0;2023-12-28 00:00:00
+879;12;Enveloppe anthony et thomas fêtes;-70;1;0;2023-12-28 00:00:00
+880;13;Clara de mélissa;22.18;1;0;2023-12-01 00:00:00
+881;13;Anaïs;60;1;0;2023-12-01 00:00:00
+882;13;Eléna;12.25;1;0;2023-12-01 00:00:00
+883;13;Alix;12.04;1;0;2023-12-01 00:00:00
+884;13;Lucas;14.89;1;0;2023-12-01 00:00:00
+885;13;Zoé;11.05;1;0;2023-12-01 00:00:00
+886;13;Tristan+cadeau de la part de poupette;124.35;1;0;2023-12-01 00:00:00
+887;13;Fabian;91.88;1;0;2023-12-01 00:00:00
+888;13;Boules efferscentes;2.49;1;0;2023-12-01 00:00:00
+889;13;Natacha;109.73;1;0;2023-12-01 00:00:00
+890;13;Romain;98.63;1;0;2023-12-01 00:00:00
+891;13;Lenny;100;1;0;2023-12-01 00:00:00
+892;13;Alex;41.73;1;0;2023-12-01 00:00:00
+893;13;Babou;34.39;1;0;2023-12-01 00:00:00
+894;13;Sylvie;12.84;1;0;2023-12-01 00:00:00
+895;13;Mélissa;29.32;1;0;2023-12-01 00:00:00
+896;13;Lola;14.18;1;0;2023-12-01 00:00:00
+897;13;Cacahuète romain école;10;1;0;2023-12-01 00:00:00
+898;13;cadeau aurélie et yvan pour invitation le 25;2.79;1;0;2023-12-01 00:00:00
+899;13;Marraine;24.61;1;0;2023-12-01 00:00:00
+900;13;Bastien;34.87;1;0;2023-12-01 00:00:00
+901;13;Gaston;22.52;1;0;2023-12-01 00:00:00
+902;13;Erica;10.68;1;0;2023-12-01 00:00:00
+903;13;Cacahuète travail natacha;9.42;1;0;2023-12-01 00:00:00
+904;13;Papy;7.67;1;0;2023-12-01 00:00:00
+905;13;Aurélie;13.88;1;0;2023-12-01 00:00:00
+906;13;William;16.15;1;0;2023-12-01 00:00:00
+907;13;Clarisse;7.64;1;0;2023-12-01 00:00:00
+908;13;Elisabeth;11.48;1;0;2023-12-01 00:00:00
+909;13;Wendy;11.09;1;0;2023-12-01 00:00:00
+910;13;Béatrice;10.99;1;0;2023-12-01 00:00:00
+911;13;Jesse;12.34;1;0;2023-12-01 00:00:00
+912;13;Fanny;12.22;1;0;2023-12-01 00:00:00
+913;13;Mamoun et papou;30;1;0;2023-12-01 00:00:00
+914;13;Clara de jesse;21.92;1;0;2023-12-01 00:00:00
+915;14;Taxe roulage;570.76;1;0;2023-12-01 00:00:00
+916;14;Entretien voiture;950;1;0;2023-12-01 00:00:00
+917;14;Assurance complémentaire mutuelle;252;1;0;2023-12-01 00:00:00
+918;14;Assurance hospitalisation;741.21;1;0;2023-12-01 00:00:00
+919;14;Assurance dentaire;574.56;1;0;2023-12-01 00:00:00
+920;14;Frais scolaire lenny;60;1;0;2023-12-01 00:00:00
+921;14;Taxe poubelle;140;1;0;2023-12-01 00:00:00
+922;14;Mazout;2000;1;0;2023-12-01 00:00:00
+923;14;Assurance voitures et familiale;1489.08;1;0;2023-12-01 00:00:00
+924;14;Electricité;960;1;0;2023-12-01 00:00:00
+925;14;Eau;840;1;0;2023-12-01 00:00:00
+926;14;Pneus 4 saisons;500;1;0;2023-12-01 00:00:00
+927;14;Auto-sécurité;120;1;0;2023-12-01 00:00:00
+928;14;Bois de chauffage;400;1;0;2023-12-01 00:00:00
+929;14;Assurance dépannage et famille voiture;100;1;0;2023-12-01 00:00:00
+930;14;Entretien chaudière (tous les 2ans );80;1;0;2023-12-01 00:00:00
+931;14;Taxe provinciale;34;1;0;2023-12-01 00:00:00
+932;14;Revenu cadastral;906.76;1;0;2023-12-01 00:00:00
+933;14;Sport famille;240;1;0;2023-12-01 00:00:00
+934;14;Ramonage cheminée(tous les trois ans);40;1;0;2023-12-01 00:00:00
+935;14;Vidange fosse septique(tous les deux ans);75;1;0;2023-12-01 00:00:00
+936;14;Entretien vélos;100;1;0;2023-12-01 00:00:00
+937;14;Affiliation hélicoptère médicalisé;47;1;0;2023-12-01 00:00:00
+938;14;Assurance incendie;1107.6;1;0;2023-12-01 00:00:00
+939;14;Assurance décès;405;1;0;2023-12-01 00:00:00
+940;14;Assurance juridique;268;1;0;2023-12-01 00:00:00
+941;14;Abonnement bus les deux grands;120;1;0;2023-12-01 00:00:00
+942;14;Frais scolaire romain;120;1;0;2023-12-01 00:00:00
+943;14;frais scolaire tristan;300;1;0;2023-12-01 00:00:00
+944;14;Divers;50;1;0;2023-12-01 00:00:00
+945;15;Lucas pistolet à bulle/set plâtre;4;1;0;2023-12-01 00:00:00
+946;15;Erica livre à colorier/pistolet à bulle/robe;8.89;1;0;2023-12-01 00:00:00
+947;15;Eléna robe/diamond/bijoux à faire;8.22;1;0;2023-12-01 00:00:00
+948;15;Alix robe/pochoirs fenêtre/bijoux à faire;8.42;1;0;2023-12-01 00:00:00
+949;15;Zoé perles/set plâtre;4;1;0;2023-12-01 00:00:00
+950;15;Romain;40;1;0;2023-12-01 00:00:00
+951;15;Tristan;40;1;0;2023-12-01 00:00:00
+952;15;lenny;40;1;0;2023-12-01 00:00:00
+953;15;Anaïs autocollant mousse/ballon/corde à sauter/robe;40;1;0;2023-12-01 00:00:00
+954;15;will livre colori/pistolet bulle/t-shirt;8.88;1;0;2023-12-01 00:00:00
+955;15;Lola autocollant mousse/peinture et livre/robe;8.58;1;0;2023-12-01 00:00:00
+956;15;Clarisse;4;1;0;2023-12-01 00:00:00
+957;15;Alex t-shirts et livre;8.25;1;0;2023-12-01 00:00:00
+958;15;Flora;4.5;1;0;2023-12-01 00:00:00
+959;16;;100;1;0;2020-01-13 00:00:00
+960;16;;100;1;0;2020-02-10 00:00:00
+961;16;;100;1;0;2020-03-31 00:00:00
+962;16;;100;1;0;2020-04-24 00:00:00
+963;16;;100;1;0;2020-05-15 00:00:00
+964;16;;100;1;0;2020-06-17 00:00:00
+965;16;;100;1;0;2020-07-22 00:00:00
+966;16;;100;1;0;2020-08-27 00:00:00
+967;16;;100;1;0;2020-09-26 00:00:00
+968;16;;100;1;0;2020-10-04 00:00:00
+969;16;;100;1;0;2020-11-15 00:00:00
+970;16;;100;1;0;2020-12-15 00:00:00
+971;16;;100;1;0;2021-01-19 00:00:00
+972;16;;100;1;0;2021-02-14 00:00:00
+973;16;;190;1;0;2021-02-23 00:00:00
+974;16;;110;1;0;2021-03-12 00:00:00
+975;16;;150;1;0;2021-04-22 00:00:00
+976;16;;150;1;0;2021-05-19 00:00:00
+977;16;;100;1;0;2021-06-23 00:00:00
+978;16;;150;1;0;2021-08-16 00:00:00
+979;16;;150;1;0;2021-09-13 00:00:00
+980;16;;150;1;0;2021-11-24 00:00:00
+981;16;;300;1;0;2021-11-26 00:00:00
+982;16;;150;1;0;2021-12-27 00:00:00
+983;16;;150;1;0;2022-01-17 00:00:00
+984;16;;150;1;0;2022-02-28 00:00:00
+985;16;;200;1;0;2022-03-25 00:00:00
+986;16;;200;1;0;2022-04-23 00:00:00
+987;16;;200;1;0;2022-05-19 00:00:00
+988;16;;200;1;0;2022-06-21 00:00:00
+989;16;;200;1;0;2022-06-22 00:00:00
+990;16;;200;1;0;2022-07-20 00:00:00
+991;16;;200;1;0;2022-08-18 00:00:00
+992;16;;200;1;0;2022-09-14 00:00:00
+993;16;;200;1;0;2022-10-28 00:00:00
+994;16;;200;1;0;2022-11-27 00:00:00
+995;16;;200;1;0;2022-12-23 00:00:00
+996;16;;200;1;0;2023-01-25 00:00:00
+997;16;;200;1;0;2023-02-26 00:00:00
+998;16;;200;1;0;2023-03-19 00:00:00
+999;16;;200;1;0;2023-04-15 00:00:00
+1000;16;;200;1;0;2023-05-17 00:00:00
+1001;16;;200;1;0;2023-06-30 00:00:00
+1002;16;Pour juillet;200;1;0;2023-08-20 00:00:00
+1003;16;;200;1;0;2023-09-14 00:00:00
+1004;16;;100;1;0;2023-10-30 00:00:00
+1005;16;;100;1;0;2023-11-28 00:00:00
+1006;16;;100;1;0;2023-12-21 00:00:00

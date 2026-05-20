@@ -1,110 +1,31 @@
-import { Ionicons } from "@expo/vector-icons";
-import { Link } from "expo-router";
-import { useState } from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import { sheets } from "../../data/sheets";
-import { statements } from "../../data/statements";
+import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
+import { useRouter } from "expo-router";
+import { useUser } from "../context/UserContext";
 
-export default function BudgetIndex() {
-  const [mode, setMode] = useState<"simple" | "compact" | "detail">("simple");
+export default function UserSelection() {
+  const router = useRouter();
+  const { setUser } = useUser();
+
+  const handleSelect = (user: "Natacha" | "Fabian") => {
+    setUser(user);
+    router.push("/budget");
+  };
 
   return (
     <View style={styles.container}>
-      {/* Toggle simple / compact / détaillé */}
-      <View style={styles.toggleRow}>
-        <TouchableOpacity
-          style={[styles.toggleBtn, mode === "simple" && styles.toggleActive]}
-          onPress={() => setMode("simple")}
-        >
-          <Text style={styles.toggleText}>Simple</Text>
+      <Text style={styles.title}>Qui utilise l'application ?</Text>
+
+      <View style={styles.row}>
+        <TouchableOpacity style={styles.card} onPress={() => handleSelect("Natacha")}>
+          <Image source={require("../../assets/images/natacha-dentz.jpg")} style={styles.avatar} />
+          <Text style={styles.name}>Natacha</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity
-          style={[styles.toggleBtn, mode === "compact" && styles.toggleActive]}
-          onPress={() => setMode("compact")}
-        >
-          <Text style={styles.toggleText}>Compact</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={[styles.toggleBtn, mode === "detail" && styles.toggleActive]}
-          onPress={() => setMode("detail")}
-        >
-          <Text style={styles.toggleText}>Détaillé</Text>
+        <TouchableOpacity style={styles.card} onPress={() => handleSelect("Fabian")}>
+          <Image source={require("../../assets/images/fabian-terf.jpg")} style={styles.avatar} />
+          <Text style={styles.name}>Fabian</Text>
         </TouchableOpacity>
       </View>
-
-      {/* Liste des mois */}
-      {sheets.map((sheet) => {
-        const items = statements[sheet.id] || [];
-
-        const totalRevenus = items
-          .filter((i) => i.value > 0)
-          .reduce((sum, i) => sum + i.value, 0);
-
-        const totalDepenses = items
-          .filter((i) => i.value < 0)
-          .reduce((sum, i) => sum + i.value, 0);
-
-        const solde = totalRevenus + totalDepenses;
-
-        return (
-          <Link
-            key={sheet.id}
-            href={{ pathname: "/sheet/[id]", params: { id: sheet.id.toString() } }}
-            asChild
-          >
-            <TouchableOpacity style={styles.item}>
-              <Ionicons
-                name="calendar-outline"
-                size={24}
-                color="#0A3D62"
-                style={styles.icon}
-              />
-
-              <View style={{ flex: 1 }}>
-                {/* Toujours afficher le mois */}
-                <Text style={styles.label}>{sheet.label}</Text>
-
-                {/* Mode compact → solde uniquement */}
-                {mode === "compact" && (
-                  <Text style={styles.compactSolde}>
-                    <Text style={solde >= 0 ? styles.pos : styles.neg}>
-                      {solde.toFixed(2)} €
-                    </Text>
-                  </Text>
-                )}
-
-                {/* Mode détaillé → tout */}
-                {mode === "detail" && (
-                  <>
-                    <Text style={styles.resume}>
-                      Revenus :{" "}
-                      <Text style={styles.pos}>
-                        {totalRevenus.toFixed(2)} €
-                      </Text>
-                    </Text>
-
-                    <Text style={styles.resume}>
-                      Dépenses :{" "}
-                      <Text style={styles.neg}>
-                        {totalDepenses.toFixed(2)} €
-                      </Text>
-                    </Text>
-
-                    <Text style={styles.resume}>
-                      Solde :{" "}
-                      <Text style={solde >= 0 ? styles.pos : styles.neg}>
-                        {solde.toFixed(2)} €
-                      </Text>
-                    </Text>
-                  </>
-                )}
-              </View>
-            </TouchableOpacity>
-          </Link>
-        );
-      })}
     </View>
   );
 }
@@ -112,77 +33,41 @@ export default function BudgetIndex() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
     backgroundColor: "#E8F1FF",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 20,
   },
   title: {
     fontSize: 26,
     fontWeight: "700",
-    marginBottom: 20,
     color: "#0A3D62",
+    marginBottom: 40,
   },
-
-  /* Toggle */
-  toggleRow: {
+  row: {
     flexDirection: "row",
-    marginBottom: 20,
-    justifyContent: "center",
+    gap: 30,
   },
-  toggleBtn: {
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-    borderRadius: 8,
-    backgroundColor: "#D0E2FF",
-    marginHorizontal: 6,
+  card: {
+    backgroundColor: "#fff",
+    paddingVertical: 20,
+    paddingHorizontal: 10,
+    borderRadius: 20,
+    alignItems: "center",
+    width: 140,
+    elevation: 4,
   },
-  toggleActive: {
-    backgroundColor: "#0A3D62",
-  },
-  toggleText: {
-    color: "white",
-    fontWeight: "600",
-  },
-
-  /* Items */
-  item: {
-    flexDirection: "row",
-    alignItems: "flex-start",
-    padding: 16,
-    backgroundColor: "white",
-    borderRadius: 10,
+  avatar: {
+    width: 90,
+    height: 90,
+    borderRadius: 45,
     marginBottom: 12,
-    borderWidth: 1,
-    borderColor: "#D0E2FF",
+    borderWidth: StyleSheet.hairlineWidth,
+    borderColor: "#0A3D62", // bleu foncé
   },
-  icon: {
-    marginRight: 12,
-    marginTop: 4,
-  },
-  label: {
+  name: {
     fontSize: 18,
+    fontWeight: "600",
     color: "#1B4F72",
-    fontWeight: "700",
-    marginBottom: 6,
-  },
-
-  /* Compact */
-  compactSolde: {
-    fontSize: 18,
-    fontWeight: "700",
-    color: "#1B4F72",
-  },
-
-  /* Détail */
-  resume: {
-    fontSize: 14,
-    color: "#1B4F72",
-  },
-  pos: {
-    color: "#27AE60",
-    fontWeight: "700",
-  },
-  neg: {
-    color: "#C0392B",
-    fontWeight: "700",
   },
 });
