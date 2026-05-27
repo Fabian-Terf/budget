@@ -1,12 +1,10 @@
 import { Stack } from "expo-router";
 import { UserProvider } from "../context/UserContext";
-import { BudgetProvider } from "@/context/BudgetProvider";
 
 export default function Layout() {
   return (
     <UserProvider>
-      <BudgetProvider>
-        <Stack
+       <Stack
           screenOptions={{
             headerStyle: {
               backgroundColor: "#E8F1FF",
@@ -33,7 +31,6 @@ export default function Layout() {
             options={{ title: "Détail du mois" }}
           />
         </Stack>
-      </BudgetProvider>
     </UserProvider>
   );
 }

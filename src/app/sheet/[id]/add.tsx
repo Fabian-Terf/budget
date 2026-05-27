@@ -1,27 +1,43 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
-  View,
+  ActivityIndicator,
+  Alert,
+  StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
-  StyleSheet,
-  Alert,
+  View,
 } from "react-native";
-import { useBudget } from "@/context/BudgetProvider";
+import { getSheets } from "../../../services/api";
 
 export default function AddOperation() {
   const router = useRouter();
   const { id } = useLocalSearchParams();
   const idNum = Number(id);
 
-  const { sheets, statementsBySheet } = useBudget();
-
-  const sheet = sheets.find((s) => s.Id === idNum);
+  const [sheet, setSheet] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
   const [label, setLabel] = useState("");
   const [value, setValue] = useState("");
+
+  // 🔥 Charger le sheet depuis l’API
+  useEffect(() => {
+    async function load() {
+      try {
+        const allSheets = await getSheets();
+        const found = allSheets.find((s: any) => s.id === idNum);
+        setSheet(found || null);
+      } catch (err) {
+        console.error("Erreur API add.tsx :", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    load();
+  }, [idNum]);
 
   function ajouter() {
     if (!label.trim() || !value.trim()) {
@@ -35,17 +51,27 @@ export default function AddOperation() {
       return;
     }
 
-    // ⚠️ On ne modifie pas le provider ici (pas de persistance)
-    // On revient simplement à la page du mois
+    // ⚠️ Pas encore de persistance API
+    // On reviendra ici quand tu voudras ajouter POST /statements
+    Alert.alert("Succès", "L'opération a été ajoutée (localement).");
+
     router.back();
+  }
+
+  if (loading) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <ActivityIndicator size="large" color="#0A3D62" />
+      </View>
+    );
   }
 
   return (
     <>
       <Stack.Screen
         options={{
-          title: sheet?.Label
-            ? `Ajouter (${sheet.Label})`
+          title: sheet?.label
+            ? `Ajouter (${sheet.label})`
             : "Ajouter une opération",
         }}
       />

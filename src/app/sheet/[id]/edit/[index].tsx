@@ -1,15 +1,16 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
-  View,
+  ActivityIndicator,
+  Alert,
+  StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
-  StyleSheet,
-  Alert,
+  View,
 } from "react-native";
-import { useBudget, Statement } from "@/context/BudgetProvider";
+import { getSheets, getStatements } from "../../../../services/api";
 
 export default function EditOperation() {
   const router = useRouter();
@@ -18,16 +19,38 @@ export default function EditOperation() {
   const idNum = Number(id);
   const indexNum = Number(index);
 
-  const { sheets, statementsBySheet } = useBudget();
+  const [sheet, setSheet] = useState<any>(null);
+  const [item, setItem] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
-  const sheet = sheets.find((s) => s.Id === idNum);
+  const [label, setLabel] = useState("");
+  const [value, setValue] = useState("");
 
-  // Récupération de l’opération à modifier
-  const originalItems = statementsBySheet[idNum] || [];
-  const item = originalItems[indexNum];
+  // 🔥 Charger sheet + statements
+  useEffect(() => {
+    async function load() {
+      try {
+        const allSheets = await getSheets();
+        const foundSheet = allSheets.find((s: any) => s.id === idNum);
+        setSheet(foundSheet || null);
 
-  const [label, setLabel] = useState(item?.Label ?? "");
-  const [value, setValue] = useState(item?.Value.toString() ?? "");
+        const stmts = await getStatements(idNum);
+        const selected = stmts[indexNum];
+
+        setItem(selected || null);
+
+        if (selected) {
+          setLabel(selected.label);
+          setValue(selected.value.toString());
+        }
+      } catch (err) {
+        console.error("Erreur API edit.tsx :", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    load();
+  }, [idNum, indexNum]);
 
   function enregistrer() {
     if (!label.trim() || !value.trim()) {
@@ -41,16 +64,26 @@ export default function EditOperation() {
       return;
     }
 
-    // ⚠️ Pas de persistance : on revient simplement à la page du mois
+    // ⚠️ Pas encore de persistance API
+    Alert.alert("Succès", "L'opération a été modifiée (localement).");
+
     router.back();
+  }
+
+  if (loading || !item) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <ActivityIndicator size="large" color="#0A3D62" />
+      </View>
+    );
   }
 
   return (
     <>
       <Stack.Screen
         options={{
-          title: sheet?.Label
-            ? `Modifier (${sheet.Label})`
+          title: sheet?.label
+            ? `Modifier (${sheet.label})`
             : "Modifier une opération",
         }}
       />

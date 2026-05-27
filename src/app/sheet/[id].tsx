@@ -1,19 +1,37 @@
+import { useUser } from "@/context/UserContext";
 import { Ionicons } from "@expo/vector-icons";
 import { Link, Stack, useLocalSearchParams, useNavigation } from "expo-router";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
+  ActivityIndicator,
   Alert,
+  Image,
   ScrollView,
   StyleSheet,
   Text,
+  TextInput,
   TouchableOpacity,
   View,
-  Image,
-  TextInput,
 } from "react-native";
-import React from "react";
-import { useUser } from "@/context/UserContext";
-import { useBudget, Statement } from "@/context/BudgetProvider";
+import { getSheets, getStatements } from "../../services/api";
+
+export type ApiSheet = {
+  id: number;
+  label: string;
+  userId: number;
+  deleted: number;
+  creationTime: string;
+};
+
+export type ApiStatement = {
+  id: number;
+  sheetId: number;
+  label: string;
+  value: number;
+  userId: number;
+  deleted: number;
+  creationTime: string;
+};
 
 export default function SheetDetail() {
   const { user } = useUser();
@@ -21,17 +39,33 @@ export default function SheetDetail() {
   const { id } = useLocalSearchParams();
   const idNum = Number(id);
 
-  const { sheets, statementsBySheet } = useBudget();
-  const sheet = sheets.find((s) => s.Id === idNum);
+  const [sheet, setSheet] = useState<ApiSheet | null>(null);
+  const [items, setItems] = useState<ApiStatement[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const [items, setItems] = useState<Statement[]>(statementsBySheet[idNum] || []);
   const [sort, setSort] = useState<"asc" | "desc" | "type" | "alpha">("desc");
   const [search, setSearch] = useState("");
 
-  const totalRevenus = items.filter((i) => i.Value > 0).reduce((s, i) => s + i.Value, 0);
-  const totalDepenses = items.filter((i) => i.Value < 0).reduce((s, i) => s + i.Value, 0);
-  const solde = totalRevenus + totalDepenses;
+  // 🔥 Charger sheet + statements
+  useEffect(() => {
+    async function load() {
+      try {
+        const allSheets = await getSheets();
+        const found = allSheets.find((s: ApiSheet) => s.id === idNum);
+        setSheet(found || null);
 
+        const stmts = await getStatements(idNum);
+        setItems(stmts);
+      } catch (err) {
+        console.error("Erreur API sheet detail :", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    load();
+  }, [idNum]);
+
+  // Avatar dans le header
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: () => (
@@ -64,29 +98,41 @@ export default function SheetDetail() {
     ]);
   }
 
-  // 🔍 FILTRE DE RECHERCHE
+  if (loading) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <ActivityIndicator size="large" color="#0A3D62" />
+      </View>
+    );
+  }
+
+  // 🔍 FILTRE
   const filteredItems = items.filter((i) => {
     const q = search.toLowerCase();
     return (
-      i.Label.toLowerCase().includes(q) ||
-      i.Value.toString().includes(q)
+      i.label.toLowerCase().includes(q) ||
+      i.value.toString().includes(q)
     );
   });
 
   // 🔧 TRI
   const sortedItems = [...filteredItems].sort((a, b) => {
-    if (sort === "asc") return a.Value - b.Value;
-    if (sort === "desc") return b.Value - a.Value;
-    if (sort === "type") return (a.Value >= 0 ? -1 : 1) - (b.Value >= 0 ? -1 : 1);
-    if (sort === "alpha") return a.Label.localeCompare(b.Label);
+    if (sort === "asc") return a.value - b.value;
+    if (sort === "desc") return b.value - a.value;
+    if (sort === "type") return (a.value >= 0 ? -1 : 1) - (b.value >= 0 ? -1 : 1);
+    if (sort === "alpha") return a.label.localeCompare(b.label);
     return 0;
   });
+
+  const totalRevenus = items.filter((i) => i.value > 0).reduce((s, i) => s + i.value, 0);
+  const totalDepenses = items.filter((i) => i.value < 0).reduce((s, i) => s + i.value, 0);
+  const solde = totalRevenus + totalDepenses;
 
   return (
     <>
       <Stack.Screen
         options={{
-          title: sheet?.Label || "Détail du mois",
+          title: sheet?.label || "Détail du mois",
         }}
       />
 
@@ -118,7 +164,7 @@ export default function SheetDetail() {
           </Text>
         </View>
 
-        {/* 🔍 BARRE DE RECHERCHE */}
+        {/* 🔍 Recherche */}
         <View style={styles.searchBox}>
           <Ionicons name="search" size={20} color="#0A3D62" />
           <TextInput
@@ -161,17 +207,17 @@ export default function SheetDetail() {
             {/* En-tête */}
             <View style={styles.rowHeader}>
               <Text style={styles.label} numberOfLines={5}>
-                {item.Label}
+                {item.label}
               </Text>
 
               <View
                 style={[
                   styles.badge,
-                  item.Value >= 0 ? styles.badgePos : styles.badgeNeg,
+                  item.value >= 0 ? styles.badgePos : styles.badgeNeg,
                 ]}
               >
                 <Text style={styles.badgeText}>
-                  {item.Value >= 0 ? "Entrée" : "Sortie"}
+                  {item.value >= 0 ? "Entrée" : "Sortie"}
                 </Text>
               </View>
             </View>
@@ -181,10 +227,10 @@ export default function SheetDetail() {
               <Text
                 style={[
                   styles.value,
-                  item.Value >= 0 ? styles.pos : styles.neg,
+                  item.value >= 0 ? styles.pos : styles.neg,
                 ]}
               >
-                {item.Value.toFixed(2)} €
+                {item.value.toFixed(2)} €
               </Text>
             </View>
 
@@ -254,7 +300,6 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
 
-  /* 🔍 Recherche */
   searchBox: {
     flexDirection: "row",
     alignItems: "center",
@@ -273,7 +318,6 @@ const styles = StyleSheet.create({
     color: "#0A3D62",
   },
 
-  /* TRI */
   sortRow: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -291,7 +335,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
 
-  /* Lignes */
   row: {
     backgroundColor: "white",
     padding: 16,

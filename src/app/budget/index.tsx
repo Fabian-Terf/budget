@@ -1,27 +1,89 @@
+import { useUser } from "@/context/UserContext";
 import { Ionicons } from "@expo/vector-icons";
 import { Link, useNavigation } from "expo-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
+  ActivityIndicator,
+  Image,
+  ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
-  Image,
-  ScrollView,
 } from "react-native";
-import { useUser } from "@/context/UserContext";
-import { useBudget, Sheet, Statement } from "@/context/BudgetProvider";
-import React from "react";
+import { getSheets, getStatements } from "../../services/api";
+
+export type ApiSheet = {
+  id: number;
+  label: string;
+  userId: number;
+  deleted: number;
+  creationTime: string;
+};
+
+export type ApiStatement = {
+  id: number;
+  sheetId: number;
+  label: string;
+  value: number;
+  userId: number;
+  deleted: number;
+  creationTime: string;
+};
 
 export default function BudgetIndex() {
   const { user } = useUser();
-  const { sheets, statementsBySheet } = useBudget();
+
+  const [sheets, setSheets] = useState<ApiSheet[]>([]);
+  const [statements, setStatements] = useState<Record<number, ApiStatement[]>>({});
+
+  const [loadingSheets, setLoadingSheets] = useState(true);
+  const [loadingStatements, setLoadingStatements] = useState(true);
+
   const [mode, setMode] = useState<"simple" | "compact" | "detail">("simple");
   const [sort, setSort] = useState<"asc" | "desc" | "alpha">("desc");
 
   const navigation = useNavigation();
 
-  React.useLayoutEffect(() => {
+  // 🔥 Charger les sheets depuis l’API
+  useEffect(() => {
+    async function load() {
+      try {
+        const data = await getSheets();
+        setSheets(data);
+      } catch (err) {
+        console.error("Erreur API sheets :", err);
+      } finally {
+        setLoadingSheets(false);
+      }
+    }
+    load();
+  }, []);
+
+  // 🔥 Charger les statements pour chaque sheet
+  useEffect(() => {
+    if (sheets.length === 0) return;
+
+    async function loadStatements() {
+      const result: any = {};
+
+      for (const s of sheets) {
+        try {
+          result[s.id] = await getStatements(s.id);
+        } catch (err) {
+          console.error("Erreur API statements :", err);
+        }
+      }
+
+      setStatements(result);
+      setLoadingStatements(false);
+    }
+
+    loadStatements();
+  }, [sheets]);
+
+  // Avatar dans le header
+  useEffect(() => {
     navigation.setOptions({
       headerRight: () => (
         <TouchableOpacity style={{ marginRight: 10 }}>
@@ -40,11 +102,19 @@ export default function BudgetIndex() {
 
   // TRI DES MOIS
   const sortedSheets = [...sheets].sort((a, b) => {
-    if (sort === "alpha") return a.Label.localeCompare(b.Label);
-    if (sort === "asc") return a.Id - b.Id;
-    if (sort === "desc") return b.Id - a.Id;
+    if (sort === "alpha") return a.label.localeCompare(b.label);
+    if (sort === "asc") return a.id - b.id;
+    if (sort === "desc") return b.id - a.id;
     return 0;
   });
+
+  if (loadingSheets || loadingStatements) {
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <ActivityIndicator size="large" color="#0A3D62" />
+      </View>
+    );
+  }
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={{ paddingBottom: 40 }}>
@@ -89,28 +159,28 @@ export default function BudgetIndex() {
       </View>
 
       {/* Liste des mois */}
-      {sortedSheets.map((sheet: Sheet) => {
-        const items: Statement[] = statementsBySheet[sheet.Id] || [];
+      {sortedSheets.map((sheet) => {
+        const items = statements[sheet.id] || [];
 
         const totalRevenus = items
-          .filter((i) => i.Value > 0)
-          .reduce((sum, i) => sum + i.Value, 0);
+          .filter((i) => i.value > 0)
+          .reduce((sum, i) => sum + i.value, 0);
 
         const totalDepenses = items
-          .filter((i) => i.Value < 0)
-          .reduce((sum, i) => sum + i.Value, 0);
+          .filter((i) => i.value < 0)
+          .reduce((sum, i) => sum + i.value, 0);
 
         const solde = totalRevenus + totalDepenses;
 
         return (
           <Link
-            key={sheet.Id}
-            href={{ pathname: "/sheet/[id]", params: { id: sheet.Id.toString() } }}
+            key={sheet.id}
+            href={{ pathname: "/sheet/[id]", params: { id: sheet.id.toString() } }}
             asChild
           >
             <TouchableOpacity style={styles.item}>
 
-              {/* En-tête : nom du mois + badge solde */}
+              {/* En-tête */}
               <View style={styles.rowHeader}>
                 <View style={{ flexDirection: "row", alignItems: "center" }}>
                   <Ionicons
@@ -119,7 +189,7 @@ export default function BudgetIndex() {
                     color="#0A3D62"
                     style={styles.icon}
                   />
-                  <Text style={styles.label}>{sheet.Label}</Text>
+                  <Text style={styles.label}>{sheet.label}</Text>
                 </View>
 
                 <View
