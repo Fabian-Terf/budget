@@ -16,6 +16,7 @@ import { getSheets, getStatements } from "../../services/api";
 export type ApiSheet = {
   id: number;
   label: string;
+  year: number;
   userId: number;
   deleted: number;
   creationTime: string;
