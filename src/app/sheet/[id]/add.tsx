@@ -1,3 +1,4 @@
+import { useUser } from "@/context/UserContext";
 import { Ionicons } from "@expo/vector-icons";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import React, { useEffect, useState } from "react";
@@ -13,6 +14,8 @@ import {
 import { getSheets } from "../../../services/api";
 
 export default function AddOperation() {
+  const { year } = useUser();
+
   const router = useRouter();
   const { id } = useLocalSearchParams();
   const idNum = Number(id);
@@ -27,7 +30,7 @@ export default function AddOperation() {
   useEffect(() => {
     async function load() {
       try {
-        const allSheets = await getSheets();
+        const allSheets = await getSheets(year);
         const found = allSheets.find((s: any) => s.id === idNum);
         setSheet(found || null);
       } catch (err) {

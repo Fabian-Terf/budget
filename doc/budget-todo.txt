@@ -1,5 +1,8 @@
-- Récupérer la liste des années disponibles depuis l'API
-- Récupérer les sheets sur base d'une année et pas tous systématiquement
+V- Récupérer la liste des années disponibles depuis l'API
+V- Récupérer les sheets sur base d'une année et pas tous systématiquement
+- Pouvoir créer un nouveau budget sur base d'une année encodée
 - Pouvoir modifier un statement
 - Pouvoir supprimer un statement
-- Pouvoir choisir une année et se baser dessus dans l'app
+V- Pouvoir choisir une année et se baser dessus dans l'app
+- Interface d'administration des utilisateurs
+- Importer les budgets des autres années

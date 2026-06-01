@@ -34,6 +34,7 @@ export type ApiStatement = {
 
 export default function BudgetIndex() {
   const { user } = useUser();
+  const { year } = useUser();
 
   const [sheets, setSheets] = useState<ApiSheet[]>([]);
   const [statements, setStatements] = useState<Record<number, ApiStatement[]>>({});
@@ -50,7 +51,7 @@ export default function BudgetIndex() {
   useEffect(() => {
     async function load() {
       try {
-        const data = await getSheets();
+        const data = await getSheets(year);
         setSheets(data);
       } catch (err) {
         console.error("Erreur API sheets :", err);

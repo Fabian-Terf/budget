@@ -1,22 +1,17 @@
-import { createContext, useContext, useState } from 'react';
+// context/UserContext.tsx
+import { createContext, useContext, useState } from "react";
 
-type User = 'Natacha' | 'Fabian' | null;
-
-const UserContext = createContext({
-  user: null as User,
-  setUser: (u: User) => {},
-});
+const UserContext = createContext<any>(null);
 
 export function UserProvider({ children }: any) {
-  const [user, setUser] = useState<User>(null);
+  const [user, setUser] = useState<"Natacha" | "Fabian" | null>(null);
+  const [year, setYear] = useState<number>(new Date().getFullYear());
 
   return (
-    <UserContext.Provider value={{ user, setUser }}>
+    <UserContext.Provider value={{ user, setUser, year, setYear }}>
       {children}
     </UserContext.Provider>
   );
 }
 
-export function useUser() {
-  return useContext(UserContext);
-}
+export const useUser = () => useContext(UserContext);

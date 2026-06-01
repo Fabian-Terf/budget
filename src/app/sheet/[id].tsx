@@ -36,6 +36,8 @@ export type ApiStatement = {
 
 export default function SheetDetail() {
   const { user } = useUser();
+  const { year } = useUser();
+
   const navigation = useNavigation();
   const { id } = useLocalSearchParams();
   const idNum = Number(id);
@@ -51,7 +53,7 @@ export default function SheetDetail() {
   useEffect(() => {
     async function load() {
       try {
-        const allSheets = await getSheets();
+        const allSheets = await getSheets(year);
         const found = allSheets.find((s: ApiSheet) => s.id === idNum);
         setSheet(found || null);
 

@@ -1,10 +1,17 @@
 const API_BASE = "http://localhost:5000/api"; // ← remplace par ton IP locale si besoin
 
+// 🔹 GET ALL YEARS THAT HAVE A BUDGET
+export async function getAvailableYears() {
+  const response = await fetch(`${API_BASE}/sheets/years`);
+  if (!response.ok) throw new Error("Erreur API years");
+  return response.json();
+}
+
 // ----------------------
 // SHEETS
 // ----------------------
-export async function getSheets() {
-  const response = await fetch(`${API_BASE}/sheets`);
+export async function getSheets(year: number) {
+  const response = await fetch(`${API_BASE}/sheets/${year}`);
   if (!response.ok) throw new Error("Erreur API sheets");
   return response.json();
 }
